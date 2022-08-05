@@ -1,0 +1,158 @@
+{
+	"Sources/Methods/initData_TO_DELETE.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/HDI2/ObjectMethods/Button2.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/runningProcessForm/ObjectMethods/Button1.4dm": {
+		"left": 379,
+		"top": 305,
+		"width": 1875,
+		"height": 984
+	},
+	"Sources/Methods/updateMetrics.4dm": {
+		"left": 272,
+		"top": 228,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Classes/DataStore.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Methods/00_Start.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/runningProcessForm/method.4dm": {
+		"left": 271,
+		"top": 213,
+		"width": 1875,
+		"height": 1012
+	},
+	"Sources/Forms/HDI2/method.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Methods/InitInfo.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/HDI2/ObjectMethods/Button3.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/HDI2/ObjectMethods/information2.4dm": {
+		"left": 285,
+		"top": 309,
+		"width": 1875,
+		"height": 984
+	},
+	"Sources/Methods/classicQuery.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/runningProcessForm/ObjectMethods/Button.4dm": {
+		"left": 272,
+		"top": 228,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/HDI2/ObjectMethods/Button1.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Methods/createSet.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/HDI2/ObjectMethods/Button5.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/HDI2/ObjectMethods/Button6.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Methods/createEntitySelections.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Methods/addData.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Methods/buildHeaders.4dm": {
+		"left": 296,
+		"top": 153,
+		"width": 1875,
+		"height": 1155
+	},
+	"Sources/Methods/storeCookie.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Classes/Records.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Methods/initStorage.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Forms/HDI2/ObjectMethods/Button7.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Methods/RESTRequest.4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	}
+}

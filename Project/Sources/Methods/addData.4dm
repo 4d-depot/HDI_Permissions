@@ -1,0 +1,31 @@
+//%attributes = {}
+
+
+var $record : cs:C1710.RecordsEntity
+var $notDropped : cs:C1710.RecordsSelection
+
+var $status : Object
+
+
+$notDropped:=ds:C1482.Records.all().drop()
+SET DATABASE PARAMETER:C642([Records:2]; Table sequence number:K37:31; 0)
+
+
+$record:=ds:C1482.Records.new()
+$record.date:=Current date:C33()
+$record.personalNotes:="The patient has recovered"
+$record.report:="Nothing wrong"
+$status:=$record.save()
+
+
+$record:=ds:C1482.Records.new()
+$record.date:=Add to date:C393(Current date:C33(); 0; -1; 0)
+$record.personalNotes:="The patient must be met again next week"
+$record.report:="Flu treatment to take during three days"
+$status:=$record.save()
+
+$record:=ds:C1482.Records.new()
+$record.date:=Add to date:C393(Current date:C33(); 0; -3; 0)
+$record.personalNotes:="Allergy investigation to do "
+$record.report:="Allergy treatment to take during 7 days"
+$status:=$record.save()

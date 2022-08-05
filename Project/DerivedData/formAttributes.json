@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"HDI": {
+			"timeStamp": "2022-01-03T15:40:53Z",
+			"destination": "detailScreen"
+		},
+		"HDI2": {
+			"timeStamp": "2022-08-05T15:42:39Z",
+			"destination": "detailScreen"
+		},
+		"runningProcessForm": {
+			"timeStamp": "2022-06-29T09:45:05Z",
+			"destination": "detailScreen"
+		}
+	}
+}
