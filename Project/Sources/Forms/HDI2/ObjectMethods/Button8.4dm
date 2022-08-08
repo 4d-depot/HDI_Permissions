@@ -21,7 +21,7 @@ Case of
 		OB GET ARRAY:C1229($headers; "values"; $headerValues)
 		
 		$url:="127.0.0.1:8044/rest/$catalog/loginAs"
-		$body:=New collection:C1472("Intern")
+		$body:=New collection:C1472("Doctor")
 		$HTTPStatus:=HTTP Request:C1158(HTTP POST method:K71:2; $url; $body; $response; $headerNames; $headerValues; *)
 		
 		$headers:=New object:C1471()

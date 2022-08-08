@@ -1,20 +1,7 @@
 [
 	{
 		"type": 66,
-		"formula": "Form:C1466.roles"
-	},
-	{
-		"type": 66,
-		"formula": "_Directions",
-		"expanded": true
-	},
-	{
-		"type": 66,
-		"formula": "Form:C1466.info"
-	},
-	{
-		"type": 66,
-		"formula": "$HTTPStatus"
+		"formula": "$body"
 	},
 	{
 		"type": 66,
@@ -23,7 +10,7 @@
 	},
 	{
 		"type": 66,
-		"formula": "Date:C102($date)"
+		"formula": "$date"
 	},
 	{
 		"type": 66,
@@ -31,36 +18,10 @@
 	},
 	{
 		"type": 66,
-		"formula": "Session:C1714"
-	},
-	{
-		"type": 66,
-		"formula": "$responseObj",
-		"expanded": true
+		"formula": "$responseObj"
 	},
 	{
 		"type": 66,
 		"formula": "$httpStatusCode"
-	},
-	{
-		"type": 66,
-		"formula": "Storage:C1525"
-	},
-	{
-		"type": 66,
-		"formula": "$headerValues",
-		"expanded": true
-	},
-	{
-		"type": 66,
-		"formula": "$headerNames"
-	},
-	{
-		"type": 66,
-		"formula": "$body"
-	},
-	{
-		"type": 66,
-		"formula": "$url"
 	}
 ]

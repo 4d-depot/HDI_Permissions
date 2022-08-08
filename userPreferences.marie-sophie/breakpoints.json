@@ -1,1 +1,29 @@
-[]
+[
+	{
+		"line": 2,
+		"method": {
+			"type": 10,
+			"className": "Records",
+			"functionName": "deleteFrom",
+			"methodPath": "/SOURCES/Classes/Records.4dm"
+		}
+	},
+	{
+		"line": 11,
+		"method": {
+			"type": 2,
+			"formName": "HDI2",
+			"objectName": "Button7",
+			"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button7.4dm"
+		}
+	},
+	{
+		"line": 2,
+		"method": {
+			"type": 10,
+			"className": "Records",
+			"functionName": "create",
+			"methodPath": "/SOURCES/Classes/Records.4dm"
+		}
+	}
+]

@@ -29,10 +29,14 @@
 			{
 				"applyTo": "Records",
 				"type": "dataclass",
-				"read": "Intern",
-				
-				"create": "Doctor",
-				
+				"read": [
+					"Admin",
+					"Intern",
+					"Patient"
+				],
+				"create": [
+					"Doctor"
+				],
 				"update": [
 					"Doctor"
 				]
@@ -47,7 +51,9 @@
 			{
 				"applyTo": "Records.personalNotes",
 				"type": "attribute",
-				"read": "Doctor"
+				"read": [
+					"Doctor"
+				]
 			},
 			{
 				"applyTo": "Patients",

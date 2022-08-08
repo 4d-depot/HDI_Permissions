@@ -75,6 +75,19 @@
 					"events": [
 						"onDataChange"
 					]
+				},
+				"Button11": {
+					"type": "button",
+					"text": "Show on disk",
+					"top": 749,
+					"left": 121,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button11.4dm",
+					"focusable": false
 				}
 			}
 		},
@@ -85,7 +98,7 @@
 					"top": 70,
 					"left": 50,
 					"width": 850,
-					"height": 30,
+					"height": 120,
 					"sizingY": "grow",
 					"dataSource": "Infos[1].Description",
 					"focusable": false,
@@ -103,9 +116,9 @@
 				"Button2": {
 					"type": "button",
 					"text": "Login as Admin",
-					"top": 227,
-					"left": 32,
-					"width": 230,
+					"top": 427,
+					"left": 38,
+					"width": 150,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -115,10 +128,10 @@
 				},
 				"Input": {
 					"type": "input",
-					"left": 543,
-					"top": 196,
+					"left": 55,
+					"top": 534,
 					"width": 370,
-					"height": 350,
+					"height": 49,
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
@@ -128,10 +141,10 @@
 				},
 				"metrics": {
 					"type": "input",
-					"left": 80,
-					"top": 729,
-					"width": 840,
-					"height": 129,
+					"left": 271,
+					"top": 750,
+					"width": 500,
+					"height": 200,
 					"enterable": false,
 					"focusable": false,
 					"dataSource": "Form:C1466.info"
@@ -148,10 +161,10 @@
 				},
 				"Button7": {
 					"type": "button",
-					"text": "Delete records",
-					"top": 267,
-					"left": 38,
-					"width": 230,
+					"text": "Delete records from",
+					"top": 499,
+					"left": 50,
+					"width": 150,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -161,97 +174,166 @@
 				},
 				"metrics3": {
 					"type": "input",
-					"left": 80,
-					"top": 566,
-					"width": 840,
-					"height": 129,
+					"left": 38,
+					"top": 207,
+					"width": 400,
+					"height": 200,
 					"enterable": false,
 					"focusable": false,
 					"dataSource": "Form:C1466.roles",
 					"styledText": true
 				},
-				"metrics4": {
-					"type": "input",
-					"left": 80,
-					"top": 403,
-					"width": 840,
-					"height": 129,
-					"enterable": false,
-					"focusable": false,
-					"dataSource": "Form:C1466.deleteRequest",
-					"styledText": true
-				}
-			}
-		},
-		{
-			"objects": {
-				"Button1": {
+				"Button3": {
 					"type": "button",
-					"text": "Run the createSet method",
-					"top": 230,
-					"left": 100,
-					"width": 230,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button1.4dm",
-					"focusable": false
-				},
-				"Input1": {
-					"type": "input",
-					"left": 40,
-					"top": 290,
-					"width": 370,
-					"height": 350,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "system",
-					"dataSource": "_Directions[1]",
-					"styledText": true
-				},
-				"metrics1": {
-					"type": "input",
-					"left": 430,
-					"top": 150,
-					"width": 490,
-					"height": 720,
-					"enterable": false,
-					"focusable": false,
-					"dataSource": "Form:C1466.metrics"
-				},
-				"Button4": {
-					"type": "button",
-					"text": "Refresh metrics -->",
-					"top": 680,
-					"left": 140,
+					"text": "Read patients",
+					"top": 603,
+					"left": 50,
 					"width": 150,
 					"height": 20,
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button4.4dm",
+					"method": "ObjectMethods/Button3.4dm",
 					"focusable": false
 				},
-				"Text1": {
-					"type": "text",
-					"text": "Metrics",
-					"top": 120,
-					"left": 430,
-					"width": 210,
+				"Button8": {
+					"type": "button",
+					"text": "Login as Doctor",
+					"top": 427,
+					"left": 319,
+					"width": 150,
 					"height": 20,
-					"fontWeight": "bold",
-					"fontSize": 14
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button8.4dm",
+					"focusable": false
 				},
+				"List Box": {
+					"type": "listbox",
+					"left": 525,
+					"top": 535,
+					"width": 415,
+					"height": 156,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.records",
+					"selectionMode": "none",
+					"rowHeight": "20px",
+					"headerHeight": "21px",
+					"focusable": false,
+					"scrollbarHorizontal": "hidden",
+					"columns": [
+						{
+							"header": {
+								"text": "Date",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.creationDate",
+							"dataSourceTypeHint": "date",
+							"width": 100
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Report"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.report",
+							"width": 300
+						}
+					]
+				},
+				"Input4": {
+					"type": "input",
+					"left": 38,
+					"top": 453,
+					"width": 200,
+					"height": 30,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[2]",
+					"styledText": true
+				},
+				"Input5": {
+					"type": "input",
+					"left": 319,
+					"top": 457,
+					"width": 200,
+					"height": 30,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[3]",
+					"styledText": true
+				},
+				"Input6": {
+					"type": "input",
+					"left": 55,
+					"top": 638,
+					"width": 370,
+					"height": 49,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[4]",
+					"styledText": true
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Request response",
+					"top": 726,
+					"left": 271,
+					"width": 180,
+					"height": 20,
+					"fontWeight": "bold"
+				},
+				"Input7": {
+					"type": "input",
+					"left": 220,
+					"top": 502,
+					"width": 88,
+					"height": 17,
+					"dataSource": "Form:C1466.date",
+					"dataSourceTypeHint": "date"
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Records",
+					"top": 509,
+					"left": 530,
+					"width": 100,
+					"height": 20,
+					"fontWeight": "bold"
+				}
+			}
+		},
+		{
+			"objects": {
 				"information1": {
 					"type": "input",
 					"top": 70,
 					"left": 50,
 					"width": 850,
-					"height": 30,
+					"height": 120,
 					"sizingY": "grow",
-					"dataSource": "Infos[2].Description",
+					"dataSource": "Infos[1].Description",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -263,6 +345,233 @@
 					"events": [
 						"onDataChange"
 					]
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Login as Intern",
+					"top": 427,
+					"left": 38,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm",
+					"focusable": false
+				},
+				"Input1": {
+					"type": "input",
+					"left": 55,
+					"top": 534,
+					"width": 370,
+					"height": 49,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[0]",
+					"styledText": true
+				},
+				"metrics1": {
+					"type": "input",
+					"left": 271,
+					"top": 750,
+					"width": 500,
+					"height": 200,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.info"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "",
+					"top": 120,
+					"left": 430,
+					"width": 210,
+					"height": 20,
+					"fontWeight": "bold",
+					"fontSize": 14
+				},
+				"Button4": {
+					"type": "button",
+					"text": "Read records",
+					"top": 499,
+					"left": 50,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button4.4dm",
+					"focusable": false
+				},
+				"metrics4": {
+					"type": "input",
+					"left": 38,
+					"top": 207,
+					"width": 400,
+					"height": 200,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.roles",
+					"styledText": true
+				},
+				"Button9": {
+					"type": "button",
+					"text": "Create records",
+					"top": 605,
+					"left": 355,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button9.4dm",
+					"focusable": false
+				},
+				"Button10": {
+					"type": "button",
+					"text": "Login as Doctor",
+					"top": 427,
+					"left": 319,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button10.4dm",
+					"focusable": false
+				},
+				"List Box1": {
+					"type": "listbox",
+					"left": 525,
+					"top": 535,
+					"width": 415,
+					"height": 156,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.records",
+					"selectionMode": "none",
+					"rowHeight": "20px",
+					"headerHeight": "21px",
+					"focusable": false,
+					"scrollbarHorizontal": "hidden",
+					"columns": [
+						{
+							"header": {
+								"text": "Date",
+								"name": "Header3"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.creationDate",
+							"dataSourceTypeHint": "date",
+							"width": 100
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Report"
+							},
+							"name": "Column4",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "This:C1470.report",
+							"width": 300
+						}
+					]
+				},
+				"Input8": {
+					"type": "input",
+					"left": 38,
+					"top": 453,
+					"width": 200,
+					"height": 30,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[2]",
+					"styledText": true
+				},
+				"Input9": {
+					"type": "input",
+					"left": 319,
+					"top": 457,
+					"width": 200,
+					"height": 30,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[3]",
+					"styledText": true
+				},
+				"Input10": {
+					"type": "input",
+					"left": 50,
+					"top": 681,
+					"width": 370,
+					"height": 49,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[4]",
+					"styledText": true
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Request response",
+					"top": 726,
+					"left": 271,
+					"width": 180,
+					"height": 20,
+					"fontWeight": "bold"
+				},
+				"Text6": {
+					"type": "text",
+					"text": "Records",
+					"top": 509,
+					"left": 530,
+					"width": 100,
+					"height": 20,
+					"fontWeight": "bold"
+				},
+				"Input11": {
+					"type": "input",
+					"left": 55,
+					"top": 598,
+					"width": 88,
+					"height": 17,
+					"dataSource": "Form:C1466.record.creationDate",
+					"dataSourceTypeHint": "date"
+				},
+				"Input12": {
+					"type": "input",
+					"left": 55,
+					"top": 625,
+					"width": 88,
+					"height": 17,
+					"dataSource": "Form:C1466.record.report",
+					"dataSourceTypeHint": "text"
+				},
+				"Input13": {
+					"type": "input",
+					"left": 55,
+					"top": 652,
+					"width": 88,
+					"height": 17,
+					"dataSource": "Form:C1466.record.personalNotes",
+					"dataSourceTypeHint": "text"
 				}
 			}
 		},
@@ -374,6 +683,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 672,
+	"geometryStamp": 857,
 	"windowSizingY": "variable"
 }

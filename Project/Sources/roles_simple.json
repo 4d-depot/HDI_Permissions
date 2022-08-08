@@ -29,16 +29,9 @@
 			{
 				"applyTo": "Records",
 				"type": "dataclass",
-				"drop": [
-					"Admin",
-					"Doctor"
-				],
-				"read": [
-					"Admin",
-					"Intern",
-					"Doctor",
-					"Patient"
-				],
+				"drop": "Admin",
+				"read": "Admin",
+					
 				"create": [
 					"Doctor"
 				],

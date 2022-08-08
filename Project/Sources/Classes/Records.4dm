@@ -12,3 +12,10 @@ exposed Function deleteFrom($date : Text)->$result : Text
 	Else 
 		$result:="You have successfully deleted "+String:C10($toDelete.length)+" records."
 	End if 
+	
+	
+exposed Function create($data : Object)->$result : Text
+	
+	$record:=This:C1470.new()
+	$record.fromObject($data)
+	$status:=$record.save()

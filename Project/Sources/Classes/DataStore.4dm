@@ -11,3 +11,5 @@ exposed Function loginAs($privilege : Text)->$result : Text
 	If (Session:C1714.hasPrivilege($privilege))
 		$result:="Your are loggued as "+$privilege
 	End if 
+	
+	
