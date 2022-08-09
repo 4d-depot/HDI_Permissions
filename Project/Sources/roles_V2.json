@@ -29,42 +29,32 @@
 			{
 				"applyTo": "Records",
 				"type": "dataclass",
-			
-				"read": "Admin",
+				"read": "Intern",
 				
-				"create": [
-					"Doctor"
-				],
+				"create": "Doctor",
+				
 				"update": [
-					"Doctor"
-				]
-			},
-			{
-				"applyTo": "Records.personalNotes",
-				"type": "attribute",
-				"drop": [
-					"Admin",
-					"Doctor"
-				],
-				"create": [
-					"Doctor"
-				],
-				"update": [
-					"Doctor"
-				],
-				"read": [
 					"Doctor"
 				]
 			},
 			{
 				"applyTo": "Records.deleteFrom",
 				"type": "method",
-				"execute": "Admin"
+				"execute": [
+					"Admin"
+				]
+			},
+			{
+				"applyTo": "Records.personalNotes",
+				"type": "attribute",
+				"read": "Doctor"
 			},
 			{
 				"applyTo": "Patients",
 				"type": "dataclass",
-				"read": "Doctor"
+				"read": [
+					"Doctor"
+				]
 			}
 		]
 	}

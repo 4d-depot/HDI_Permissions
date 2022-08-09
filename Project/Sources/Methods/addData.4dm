@@ -21,13 +21,13 @@ $status:=$record.save()
 $record:=ds:C1482.Records.new()
 $record.creationDate:=Add to date:C393(Current date:C33(); 0; -1; 0)
 $record.personalNotes:="The patient must be met again next week"
-$record.report:="Flu treatment to take during three days"
+$record.report:="Flu treatment (three days)"
 $status:=$record.save()
 
 $record:=ds:C1482.Records.new()
 $record.creationDate:=Add to date:C393(Current date:C33(); 0; -3; 0)
 $record.personalNotes:="Allergy investigation to do "
-$record.report:="Allergy treatment to take during 7 days"
+$record.report:="Allergy treatment (7 days)"
 $status:=$record.save()
 
 //Patients

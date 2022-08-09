@@ -1,6 +1,14 @@
 [
 	{
 		"type": 66,
+		"formula": "$records"
+	},
+	{
+		"type": 66,
+		"formula": "$recordsData"
+	},
+	{
+		"type": 66,
 		"formula": "$body"
 	},
 	{

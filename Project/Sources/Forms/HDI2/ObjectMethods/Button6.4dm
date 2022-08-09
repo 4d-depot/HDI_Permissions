@@ -4,10 +4,12 @@ If (btnTrace)
 	TRACE:C157
 End if 
 
-Use (Storage:C1525)
-	Storage:C1525.selections:=New shared collection:C1527()
-End use 
-
-DELAY PROCESS:C323(Current process:C322; 240)
-
-Form:C1466.metrics:=ds:C1482.getMetrics()
+Case of 
+	: (Form event code:C388=On Clicked:K2:4)
+		
+		$response:=RESTRequest("Records"; HTTP GET method:K71:1)
+		
+		Form:C1466.info:=$response
+		
+		
+End case 
