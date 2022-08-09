@@ -63,13 +63,13 @@
 		"stamp": "2022-06-28T11:47:37.415Z"
 	},
 	"Sources/Forms/HDI2/method.4dm": {
-		"startSelection": 10,
-		"endSelection": 10,
-		"firstSelectedLine": 16,
-		"lastSelectedLine": 16,
+		"startSelection": 27,
+		"endSelection": 27,
+		"firstSelectedLine": 29,
+		"lastSelectedLine": 29,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-08-09T09:10:58.332Z"
+		"stamp": "2022-08-09T10:12:15.799Z"
 	},
 	"Sources/Methods/InitInfo.4dm": {
 		"startSelection": 0,
@@ -144,13 +144,13 @@
 		"stamp": "2022-08-09T07:46:34.289Z"
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button6.4dm": {
-		"startSelection": 17,
-		"endSelection": 27,
-		"firstSelectedLine": 12,
-		"lastSelectedLine": 12,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-06-29T10:58:43.072Z"
+		"stamp": "2022-08-09T07:44:54.248Z"
 	},
 	"Sources/Methods/createEntitySelections.4dm": {
 		"startSelection": 0,
@@ -252,10 +252,10 @@
 		"stamp": "2022-08-09T07:38:07.790Z"
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button9.4dm": {
-		"startSelection": 30,
-		"endSelection": 30,
-		"firstSelectedLine": 14,
-		"lastSelectedLine": 14,
+		"startSelection": 24,
+		"endSelection": 46,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2022-08-08T15:23:47.413Z"
@@ -313,5 +313,14 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2022-08-09T09:11:59.977Z"
+	},
+	"Sources/Forms/HDI2/ObjectMethods/Button12.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-08-09T10:18:51.756Z"
 	}
 }

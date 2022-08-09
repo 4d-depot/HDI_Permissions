@@ -2,55 +2,14 @@
 	"editors": [
 		{
 			"type": "method",
-			"id": 2147483609,
-			"previousTabType": "method",
-			"previousTabID": 2147483638,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "importData"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483638,
-			"previousTabType": "method",
-			"previousTabID": 2147483645,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "exportData_TO_DELETE"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483645,
-			"previousTabType": "method",
-			"previousTabID": 2147483632,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "addData"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483632,
-			"previousTabType": "method",
-			"previousTabID": 2147483618,
-			"codeDescriptor": {
-				"type": 11,
-				"className": "Records",
-				"methodPath": "/SOURCES/Classes/Records.4dm"
-			}
-		},
-		{
-			"type": "method",
 			"id": 2147483618,
 			"previousTabType": "method",
 			"previousTabID": 2147483619,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "HDI2",
-				"objectName": "Button11",
-				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button11.4dm"
+				"objectName": "Button12",
+				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button12.4dm"
 			}
 		},
 		{
@@ -92,7 +51,7 @@
 			"type": "method",
 			"id": 2147483621,
 			"previousTabType": "form",
-			"previousTabID": 785,
+			"previousTabID": 1067,
 			"codeDescriptor": {
 				"type": 3,
 				"formName": "HDI2",
@@ -101,7 +60,7 @@
 		},
 		{
 			"type": "form",
-			"id": 785,
+			"id": 1067,
 			"formName": "HDI2"
 		},
 		{
