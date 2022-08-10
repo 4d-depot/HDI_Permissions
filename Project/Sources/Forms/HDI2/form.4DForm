@@ -59,7 +59,7 @@
 					"type": "input",
 					"top": 150,
 					"left": 80,
-					"width": 800,
+					"width": 850,
 					"height": 600,
 					"sizingX": "grow",
 					"sizingY": "grow",
@@ -102,10 +102,10 @@
 				},
 				"Button11": {
 					"type": "button",
-					"text": "Show on roles.json file on disk",
+					"text": "Show roles.json file on disk",
 					"top": 600,
 					"left": 50,
-					"width": 250,
+					"width": 220,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -842,6 +842,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 1959,
+	"geometryStamp": 1961,
 	"windowSizingY": "variable"
 }

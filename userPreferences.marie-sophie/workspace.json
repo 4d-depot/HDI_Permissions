@@ -1,40 +1,7 @@
 {
 	"editors": [
 		{
-			"type": "method",
-			"id": 2147483618,
-			"previousTabType": "method",
-			"previousTabID": 2147483619,
-			"codeDescriptor": {
-				"type": 2,
-				"formName": "HDI2",
-				"objectName": "Button12",
-				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button12.4dm"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483619,
-			"previousTabType": "method",
-			"previousTabID": 2147483620,
-			"codeDescriptor": {
-				"type": 2,
-				"formName": "HDI2",
-				"objectName": "Button5",
-				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button5.4dm"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483620,
-			"previousTabType": "method",
-			"previousTabID": 2147483628,
-			"codeDescriptor": {
-				"type": 2,
-				"formName": "HDI2",
-				"objectName": "Button13",
-				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button13.4dm"
-			}
+			"type": "structure"
 		},
 		{
 			"type": "method",
@@ -51,7 +18,7 @@
 			"type": "method",
 			"id": 2147483621,
 			"previousTabType": "form",
-			"previousTabID": 1067,
+			"previousTabID": 357,
 			"codeDescriptor": {
 				"type": 3,
 				"formName": "HDI2",
@@ -60,14 +27,11 @@
 		},
 		{
 			"type": "form",
-			"id": 1067,
+			"id": 357,
 			"formName": "HDI2"
 		},
 		{
 			"type": "explorer"
-		},
-		{
-			"type": "structure"
 		}
 	]
 }

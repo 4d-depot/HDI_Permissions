@@ -24,10 +24,10 @@
 		"height": 1127
 	},
 	"Sources/Classes/DataStore.4dm": {
-		"left": 428,
-		"top": 177,
+		"left": 130,
+		"top": 153,
 		"width": 1875,
-		"height": 1127
+		"height": 1155
 	},
 	"Sources/Methods/00_Start.4dm": {
 		"left": 296,
@@ -42,8 +42,8 @@
 		"height": 1012
 	},
 	"Sources/Forms/HDI2/method.4dm": {
-		"left": 428,
-		"top": 177,
+		"left": 130,
+		"top": 181,
 		"width": 1875,
 		"height": 1127
 	},
@@ -90,8 +90,8 @@
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button5.4dm": {
-		"left": 428,
-		"top": 177,
+		"left": 130,
+		"top": 181,
 		"width": 1875,
 		"height": 1127
 	},
@@ -198,8 +198,8 @@
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button13.4dm": {
-		"left": 428,
-		"top": 177,
+		"left": 130,
+		"top": 181,
 		"width": 1875,
 		"height": 1127
 	},
@@ -210,8 +210,8 @@
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button12.4dm": {
-		"left": 428,
-		"top": 177,
+		"left": 130,
+		"top": 181,
 		"width": 1875,
 		"height": 1127
 	}
