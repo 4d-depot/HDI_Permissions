@@ -1,6 +1,10 @@
 [
 	{
 		"type": 66,
+		"formula": "Form:C1466.records"
+	},
+	{
+		"type": 66,
 		"formula": "$records"
 	},
 	{

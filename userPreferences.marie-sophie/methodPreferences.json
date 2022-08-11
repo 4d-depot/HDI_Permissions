@@ -63,13 +63,13 @@
 		"stamp": "2022-06-28T11:47:37.415Z"
 	},
 	"Sources/Forms/HDI2/method.4dm": {
-		"startSelection": 27,
-		"endSelection": 27,
-		"firstSelectedLine": 29,
-		"lastSelectedLine": 29,
+		"startSelection": 30,
+		"endSelection": 54,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-08-09T10:12:15.799Z"
+		"stamp": "2022-08-11T10:42:20.224Z"
 	},
 	"Sources/Methods/InitInfo.4dm": {
 		"startSelection": 0,
@@ -252,13 +252,13 @@
 		"stamp": "2022-08-09T07:38:07.790Z"
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button9.4dm": {
-		"startSelection": 24,
-		"endSelection": 46,
-		"firstSelectedLine": 10,
-		"lastSelectedLine": 10,
+		"startSelection": 54,
+		"endSelection": 54,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-08-08T15:23:47.413Z"
+		"stamp": "2022-08-11T10:47:02.678Z"
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button11.4dm": {
 		"startSelection": 0,

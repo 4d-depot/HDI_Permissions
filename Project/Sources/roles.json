@@ -1,24 +1,20 @@
 {
 	"privileges": [
 		{
-			"id": "e4gJ4FjvEiST3xga6Soz8J",
 			"privilege": "Admin",
 			"includes": []
 		},
 		{
-			"id": "bsWFCnPAiHPFJADseXHXR5",
 			"privilege": "Intern",
 			"includes": []
 		},
 		{
-			"id": "6Eqz3St8yE2F37uw8DjoKC",
 			"privilege": "Doctor",
 			"includes": [
 				"Intern"
 			]
 		},
 		{
-			"id": "5NxGrrXjALYnLe98dGxK4H",
 			"privilege": "Patient",
 			"includes": []
 		}
@@ -29,8 +25,11 @@
 			{
 				"applyTo": "Records",
 				"type": "dataclass",
-				"read": "Patient",
-				
+				"read": [
+					"Admin",
+					"Intern",
+					"Patient"
+				],
 				"create": [
 					"Doctor"
 				],
@@ -48,7 +47,9 @@
 			{
 				"applyTo": "Records.personalNotes",
 				"type": "attribute",
-				"read": "Doctor"
+				"read": [
+					"Doctor"
+				]
 			},
 			{
 				"applyTo": "Patients",

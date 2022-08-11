@@ -25,9 +25,9 @@
 	},
 	"Sources/Classes/DataStore.4dm": {
 		"left": 130,
-		"top": 153,
+		"top": 181,
 		"width": 1875,
-		"height": 1155
+		"height": 1127
 	},
 	"Sources/Methods/00_Start.4dm": {
 		"left": 296,
@@ -168,10 +168,10 @@
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button9.4dm": {
-		"left": 355,
-		"top": 157,
+		"left": 130,
+		"top": 153,
 		"width": 1875,
-		"height": 1127
+		"height": 1155
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button11.4dm": {
 		"left": 355,

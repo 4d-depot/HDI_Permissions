@@ -1,7 +1,16 @@
 {
 	"editors": [
 		{
-			"type": "structure"
+			"type": "method",
+			"id": 2147483613,
+			"previousTabType": "method",
+			"previousTabID": 2147483628,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "HDI2",
+				"objectName": "Button9",
+				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button9.4dm"
+			}
 		},
 		{
 			"type": "method",
@@ -18,7 +27,7 @@
 			"type": "method",
 			"id": 2147483621,
 			"previousTabType": "form",
-			"previousTabID": 357,
+			"previousTabID": 1324,
 			"codeDescriptor": {
 				"type": 3,
 				"formName": "HDI2",
@@ -27,7 +36,7 @@
 		},
 		{
 			"type": "form",
-			"id": 357,
+			"id": 1324,
 			"formName": "HDI2"
 		},
 		{
