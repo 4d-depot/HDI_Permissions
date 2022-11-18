@@ -60,7 +60,7 @@
 					"top": 150,
 					"left": 80,
 					"width": 850,
-					"height": 600,
+					"height": 1200,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "Infos[0].Description",
@@ -152,6 +152,28 @@
 					"events": [
 						"onDataChange"
 					]
+				},
+				"Text13": {
+					"type": "text",
+					"text": "Faire la fermeture globale au niveau datastore et expliquer",
+					"top": 660,
+					"left": 46,
+					"width": 366,
+					"height": 64,
+					"fontWeight": "bold",
+					"stroke": "#dc143c",
+					"fontSize": 18
+				},
+				"Text14": {
+					"type": "text",
+					"text": "Mettre login as accessible pour guest et expliquer",
+					"top": 744,
+					"left": 46,
+					"width": 366,
+					"height": 64,
+					"fontWeight": "bold",
+					"stroke": "#dc143c",
+					"fontSize": 18
 				}
 			}
 		},
@@ -829,7 +851,241 @@
 					"styledText": true
 				}
 			}
-		}
+		},
+		{
+			"objects": {
+				"information7": {
+					"type": "input",
+					"top": 70,
+					"left": 50,
+					"width": 850,
+					"height": 180,
+					"sizingY": "grow",
+					"dataSource": "Infos[5].Description",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button14": {
+					"type": "button",
+					"text": "Login as Admin",
+					"top": 260,
+					"left": 40,
+					"width": 130,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button14.4dm",
+					"focusable": false
+				},
+				"Input15": {
+					"type": "input",
+					"left": 40,
+					"top": 370,
+					"width": 400,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[0]",
+					"styledText": true
+				},
+				"metrics6": {
+					"type": "input",
+					"left": 40,
+					"top": 440,
+					"width": 440,
+					"height": 400,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.info"
+				},
+				"Text10": {
+					"type": "text",
+					"text": "",
+					"top": 120,
+					"left": 430,
+					"width": 210,
+					"height": 20,
+					"fontWeight": "bold",
+					"fontSize": 14
+				},
+				"Button15": {
+					"type": "button",
+					"text": "Delete records from",
+					"top": 340,
+					"left": 40,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button15.4dm",
+					"focusable": false
+				},
+				"metrics7": {
+					"type": "input",
+					"left": 820,
+					"top": 260,
+					"width": 350,
+					"height": 600,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.roles",
+					"styledText": true
+				},
+				"Button16": {
+					"type": "button",
+					"text": "Read patients",
+					"top": 340,
+					"left": 500,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button16.4dm",
+					"focusable": false
+				},
+				"Button17": {
+					"type": "button",
+					"text": "Login as Doctor",
+					"top": 260,
+					"left": 500,
+					"width": 130,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button17.4dm",
+					"focusable": false
+				},
+				"List Box2": {
+					"type": "listbox",
+					"left": 500,
+					"top": 440,
+					"width": 295,
+					"height": 201,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.records",
+					"selectionMode": "none",
+					"rowHeight": "20px",
+					"headerHeight": "21px",
+					"focusable": false,
+					"scrollbarHorizontal": "hidden",
+					"columns": [
+						{
+							"header": {
+								"text": "Date",
+								"name": "Header5"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.creationDate",
+							"dataSourceTypeHint": "date",
+							"width": 80
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Report"
+							},
+							"name": "Column6",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.report",
+							"width": 200
+						}
+					]
+				},
+				"Input16": {
+					"type": "input",
+					"left": 40,
+					"top": 290,
+					"width": 250,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[2]",
+					"styledText": true
+				},
+				"Input17": {
+					"type": "input",
+					"left": 500,
+					"top": 290,
+					"width": 250,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[3]",
+					"styledText": true
+				},
+				"Input18": {
+					"type": "input",
+					"left": 500,
+					"top": 370,
+					"width": 250,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[4]",
+					"styledText": true
+				},
+				"Text11": {
+					"type": "text",
+					"text": "Request response",
+					"top": 420,
+					"left": 40,
+					"width": 180,
+					"height": 20,
+					"fontWeight": "bold"
+				},
+				"Input19": {
+					"type": "input",
+					"left": 220,
+					"top": 340,
+					"width": 100,
+					"height": 20,
+					"dataSource": "Form:C1466.date",
+					"dataSourceTypeHint": "date"
+				},
+				"Text12": {
+					"type": "text",
+					"text": "Records",
+					"top": 420,
+					"left": 500,
+					"width": 100,
+					"height": 20,
+					"fontWeight": "bold"
+				}
+			}
+		},
+		null
 	],
 	"$4d": {
 		"version": "1",
@@ -842,6 +1098,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 1961,
+	"geometryStamp": 1974,
 	"windowSizingY": "variable"
 }

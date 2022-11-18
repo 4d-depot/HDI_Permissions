@@ -1,0 +1,63 @@
+{
+	"privileges": [
+		{
+			"privilege": "Admin",
+			"includes": []
+		},
+		{
+			"privilege": "Intern",
+			"includes": []
+		},
+		{
+			"privilege": "Doctor",
+			"includes": [
+				"Intern"
+			]
+		},
+		{
+			"privilege": "Patient",
+			"includes": []
+		}
+	],
+	"roles": [],
+	"permissions": {
+		"allowed": [
+			{
+				"applyTo": "Records",
+				"type": "dataclass",
+				"read": [
+					"Admin",
+					"Intern",
+					"Patient"
+				],
+				"create": [
+					"Doctor"
+				],
+				"update": [
+					"Doctor"
+				]
+			},
+			{
+				"applyTo": "Records.deleteFrom",
+				"type": "method",
+				"execute": [
+					"Admin"
+				]
+			},
+			{
+				"applyTo": "Records.personalNotes",
+				"type": "attribute",
+				"read": [
+					"Doctor"
+				]
+			},
+			{
+				"applyTo": "Patients",
+				"type": "dataclass",
+				"read": [
+					"Doctor"
+				]
+			}
+		]
+	}
+}

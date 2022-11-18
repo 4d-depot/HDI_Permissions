@@ -36,3 +36,29 @@ $text:=Replace string:C233($text; "\r"; "")/* for windows */
 $patientsData:=JSON Parse:C1218($text; Is collection:K8:32)
 
 $patients:=ds:C1482.Patients.fromCollection($patientsData)
+
+$notDropped:=ds:C1482.Users.all().drop()
+
+$user:=ds:C1482.Users.new()
+$user.identifier:="ann.brown@4d.com"
+$user.password:=Generate password hash:C1533("a")
+$user.role:="The Admin"
+$status:=$user.save()
+
+$user:=ds:C1482.Users.new()
+$user.identifier:="mary.smith@4d.com"
+$user.password:=Generate password hash:C1533("a")
+$user.role:="The Doctor"
+$status:=$user.save()
+
+$user:=ds:C1482.Users.new()
+$user.identifier:="john.anderson@4d.com"
+$user.password:=Generate password hash:C1533("a")
+$user.role:="The Intern"
+$status:=$user.save()
+
+$user:=ds:C1482.Users.new()
+$user.identifier:="helen.cooper@4d.com"
+$user.password:=Generate password hash:C1533("a")
+$user.role:="The Patient"
+$status:=$user.save()

@@ -7,5 +7,23 @@
 			"functionName": "create",
 			"methodPath": "/SOURCES/Classes/Records.4dm"
 		}
+	},
+	{
+		"line": 13,
+		"method": {
+			"type": 2,
+			"formName": "HDI2",
+			"objectName": "Button2",
+			"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button2.4dm"
+		}
+	},
+	{
+		"line": 2,
+		"method": {
+			"type": 10,
+			"className": "DataStore",
+			"functionName": "loginAs",
+			"methodPath": "/SOURCES/Classes/DataStore.4dm"
+		}
 	}
 ]

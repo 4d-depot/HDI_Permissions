@@ -1,28 +1,20 @@
 [
 	{
 		"type": 66,
-		"formula": "Form:C1466.records"
+		"formula": "Generate password hash:C1533($password)"
 	},
 	{
 		"type": 66,
-		"formula": "$records"
+		"formula": "$password"
 	},
 	{
 		"type": 66,
-		"formula": "$recordsData"
-	},
-	{
-		"type": 66,
-		"formula": "$body"
-	},
-	{
-		"type": 66,
-		"formula": "$response",
+		"formula": "$user",
 		"expanded": true
 	},
 	{
 		"type": 66,
-		"formula": "$date"
+		"formula": "$role"
 	},
 	{
 		"type": 66,
@@ -30,10 +22,6 @@
 	},
 	{
 		"type": 66,
-		"formula": "$responseObj"
-	},
-	{
-		"type": 66,
-		"formula": "$httpStatusCode"
+		"formula": "Form:C1466.ds"
 	}
 ]

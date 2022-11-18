@@ -1,12 +1,6 @@
 {
-	"Sources/Methods/initData_TO_DELETE.4dm": {
-		"left": 296,
-		"top": 181,
-		"width": 1875,
-		"height": 1127
-	},
 	"Sources/Forms/HDI2/ObjectMethods/Button2.4dm": {
-		"left": 296,
+		"left": 130,
 		"top": 181,
 		"width": 1875,
 		"height": 1127
@@ -16,12 +10,6 @@
 		"top": 305,
 		"width": 1875,
 		"height": 984
-	},
-	"Sources/Methods/updateMetrics.4dm": {
-		"left": 272,
-		"top": 228,
-		"width": 1875,
-		"height": 1127
 	},
 	"Sources/Classes/DataStore.4dm": {
 		"left": 130,
@@ -65,12 +53,6 @@
 		"width": 1875,
 		"height": 984
 	},
-	"Sources/Methods/classicQuery.4dm": {
-		"left": 296,
-		"top": 181,
-		"width": 1875,
-		"height": 1127
-	},
 	"Sources/Forms/runningProcessForm/ObjectMethods/Button.4dm": {
 		"left": 272,
 		"top": 228,
@@ -80,12 +62,6 @@
 	"Sources/Forms/HDI2/ObjectMethods/Button1.4dm": {
 		"left": 355,
 		"top": 157,
-		"width": 1875,
-		"height": 1127
-	},
-	"Sources/Methods/createSet.4dm": {
-		"left": 296,
-		"top": 181,
 		"width": 1875,
 		"height": 1127
 	},
@@ -101,17 +77,11 @@
 		"width": 1875,
 		"height": 1127
 	},
-	"Sources/Methods/createEntitySelections.4dm": {
-		"left": 296,
-		"top": 181,
-		"width": 1875,
-		"height": 1127
-	},
 	"Sources/Methods/addData.4dm": {
-		"left": 355,
-		"top": 157,
+		"left": 130,
+		"top": 153,
 		"width": 1875,
-		"height": 1127
+		"height": 1155
 	},
 	"Sources/Methods/buildHeaders.4dm": {
 		"left": 296,
@@ -126,8 +96,8 @@
 		"height": 1127
 	},
 	"Sources/Classes/Records.4dm": {
-		"left": 355,
-		"top": 157,
+		"left": 130,
+		"top": 181,
 		"width": 1875,
 		"height": 1127
 	},
@@ -169,17 +139,11 @@
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button9.4dm": {
 		"left": 130,
-		"top": 153,
-		"width": 1875,
-		"height": 1155
-	},
-	"Sources/Forms/HDI2/ObjectMethods/Button11.4dm": {
-		"left": 355,
-		"top": 157,
+		"top": 181,
 		"width": 1875,
 		"height": 1127
 	},
-	"Sources/Methods/exportData_TO_DELETE.4dm": {
+	"Sources/Forms/HDI2/ObjectMethods/Button11.4dm": {
 		"left": 355,
 		"top": 157,
 		"width": 1875,
@@ -192,7 +156,7 @@
 		"height": 1127
 	},
 	"Sources/Methods/loginAs.4dm": {
-		"left": 296,
+		"left": 130,
 		"top": 181,
 		"width": 1875,
 		"height": 1127
@@ -203,15 +167,51 @@
 		"width": 1875,
 		"height": 1127
 	},
-	"Sources/Methods/importData.4dm": {
+	"Sources/Forms/HDI2/ObjectMethods/Button12.4dm": {
+		"left": 130,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Trash/Methods/(exportData_TO_DELETE).4dm": {
 		"left": 355,
 		"top": 157,
 		"width": 1875,
 		"height": 1127
 	},
-	"Sources/Forms/HDI2/ObjectMethods/Button12.4dm": {
+	"Trash/Methods/(importData).4dm": {
 		"left": 130,
 		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Trash/Methods/(initData_TO_DELETE).4dm": {
+		"left": 130,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Trash/Methods/(createEntitySelections).4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Trash/Methods/(classicQuery).4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Trash/Methods/(createSet).4dm": {
+		"left": 296,
+		"top": 181,
+		"width": 1875,
+		"height": 1127
+	},
+	"Trash/Methods/(updateMetrics).4dm": {
+		"left": 272,
+		"top": 228,
 		"width": 1875,
 		"height": 1127
 	}

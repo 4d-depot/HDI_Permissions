@@ -1,63 +1,159 @@
 {
-	"privileges": [
-		{
-			"privilege": "Admin",
-			"includes": []
-		},
-		{
-			"privilege": "Intern",
-			"includes": []
-		},
-		{
-			"privilege": "Doctor",
-			"includes": [
-				"Intern"
-			]
-		},
-		{
-			"privilege": "Patient",
-			"includes": []
-		}
-	],
-	"roles": [],
 	"permissions": {
 		"allowed": [
+			{
+				"applyTo": "Users",
+				"type": "dataclass",
+				"read": [
+					"readUsers"
+				]
+			},
+			{
+				"applyTo": "ds.loginAs",
+				"type": "method",
+				"promote": [
+					"readUsers"
+				],
+				"execute": [
+					"guest"
+				]
+			},
+			{
+				"applyTo": "ds",
+				"type": "datastore",
+				"read": [
+					"nobody"
+				],
+				"create": [
+					"nobody"
+				],
+				"update": [
+					"nobody"
+				],
+				"drop": [
+					"nobody"
+				],
+				"execute": [
+					"nobody"
+				]
+			},
+			{
+				"applyTo": "Patients",
+				"type": "dataclass",
+				"create": [
+					"addPatient"
+				],
+				"read": [
+					"doctor"
+				]
+			},
 			{
 				"applyTo": "Records",
 				"type": "dataclass",
 				"read": [
-					"Admin",
-					"Intern",
-					"Patient"
+					"patient",
+					"intern",
+					"admin"
 				],
 				"create": [
-					"Doctor"
+					"doctor"
 				],
 				"update": [
-					"Doctor"
-				]
-			},
-			{
-				"applyTo": "Records.deleteFrom",
-				"type": "method",
-				"execute": [
-					"Admin"
+					"doctor"
 				]
 			},
 			{
 				"applyTo": "Records.personalNotes",
 				"type": "attribute",
 				"read": [
-					"Doctor"
+					"doctor"
 				]
 			},
 			{
-				"applyTo": "Patients",
-				"type": "dataclass",
-				"read": [
-					"Doctor"
+				"applyTo": "Records.deleteFrom",
+				"type": "method",
+				"execute": [
+					"admin"
 				]
 			}
 		]
-	}
+	},
+	"privileges": [
+		{
+			"id": "wshE1PHEwUqijcDQpMfxQY",
+			"privilege": "readUsers",
+			"includes": []
+		},
+		{
+			"id": "tkf67kjAFMgjZnxkPi14iv",
+			"privilege": "nobody",
+			"includes": []
+		},
+		{
+			"id": "9kdFZg5rE8MVKtDUu2Ncie",
+			"privilege": "addPatient",
+			"includes": []
+		},
+		{
+			"id": "bE2zXdUdNApVnLgYpTy4fF",
+			"privilege": "patient",
+			"includes": []
+		},
+		{
+			"id": "xiQUZndDVtcsMggPvLFV55",
+			"privilege": "intern",
+			"includes": []
+		},
+		{
+			"id": "4zvRYnwyuJP8QUfpnmzgWG",
+			"privilege": "admin",
+			"includes": []
+		},
+		{
+			"id": "px89pdtMG3vXhPw8hS4HAa",
+			"privilege": "guest",
+			"includes": []
+		},
+		{
+			"id": "huDwA9PdXACBgJX1vUYE3Q",
+			"privilege": "doctor",
+			"includes": [
+				"intern"
+			]
+		}
+	],
+	"roles": [
+		{
+			"id": "3zQv7uRLRAxv6TtUX4xHxN",
+			"role": "The Admin",
+			"privileges": [
+				"4zvRYnwyuJP8QUfpnmzgWG"
+			]
+		},
+		{
+			"id": "gLiEYreYPZfAkpbC3nN3zW",
+			"role": "The Patient",
+			"privileges": [
+				"bE2zXdUdNApVnLgYpTy4fF"
+			]
+		},
+		{
+			"id": "ckNrcS4FRMSfBRkH7JPoqx",
+			"role": "The Doctor",
+			"privileges": []
+		},
+		{
+			"id": "rYTineJeH3vUy8vFd3nDDF",
+			"role": "The Intern",
+			"privileges": []
+		},
+		{
+			"id": "oSaHuE3sibi68HK1AAdGPW",
+			"role": "The Secretary",
+			"privileges": [
+				"bE2zXdUdNApVnLgYpTy4fF",
+				"9kdFZg5rE8MVKtDUu2Ncie"
+			]
+		}
+	]
 }

@@ -2,9 +2,31 @@
 	"editors": [
 		{
 			"type": "method",
-			"id": 2147483613,
+			"id": 2147483645,
 			"previousTabType": "method",
-			"previousTabID": 2147483628,
+			"previousTabID": 2147483625,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "addData"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483625,
+			"previousTabType": "method",
+			"previousTabID": 2147483615,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "HDI2",
+				"objectName": "Button2",
+				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button2.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483615,
+			"previousTabType": "method",
+			"previousTabID": 2147483624,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "HDI2",
@@ -14,9 +36,9 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483628,
+			"id": 2147483624,
 			"previousTabType": "method",
-			"previousTabID": 2147483621,
+			"previousTabID": 2147483620,
 			"codeDescriptor": {
 				"type": 11,
 				"className": "DataStore",
@@ -25,9 +47,9 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483621,
+			"id": 2147483620,
 			"previousTabType": "form",
-			"previousTabID": 1324,
+			"previousTabID": 1302,
 			"codeDescriptor": {
 				"type": 3,
 				"formName": "HDI2",
@@ -36,8 +58,11 @@
 		},
 		{
 			"type": "form",
-			"id": 1324,
+			"id": 1302,
 			"formName": "HDI2"
+		},
+		{
+			"type": "structure"
 		},
 		{
 			"type": "explorer"
