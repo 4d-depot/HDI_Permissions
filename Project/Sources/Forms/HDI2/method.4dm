@@ -12,6 +12,8 @@ Case of
 		
 		READ WRITE:C146(*)
 		
+		manageTexts
+		
 		
 	: (Form event code:C388=On Page Change:K2:54)
 		
@@ -35,6 +37,8 @@ Case of
 		If (FORM Get current page:C276=5)
 			Form:C1466.roles:=_Directions[11]
 		End if 
+		
+		manageTexts
 		
 End case 
 

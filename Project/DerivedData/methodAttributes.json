@@ -12,6 +12,9 @@
 		"addData": {
 			"timeStamp": "2022-11-18T16:00:31Z"
 		},
+		"manageTexts": {
+			"timeStamp": "2022-11-24T13:03:06Z"
+		},
 		"initStorage": {
 			"timeStamp": "2022-08-05T14:05:21Z"
 		},
@@ -31,7 +34,7 @@
 			"timeStamp": "2022-07-04T13:40:18Z"
 		},
 		"InitInfo": {
-			"timeStamp": "2022-06-29T09:44:00Z",
+			"timeStamp": "2022-11-24T13:01:24Z",
 			"attributes": {
 				"invisible": true
 			}

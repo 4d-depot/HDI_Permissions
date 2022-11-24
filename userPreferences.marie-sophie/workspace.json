@@ -1,8 +1,36 @@
 {
 	"editors": [
 		{
+			"type": "form",
+			"id": 1181,
+			"previousTabType": "method",
+			"previousTabID": 2147483637,
+			"table": 1,
+			"formName": "Input"
+		},
+		{
 			"type": "method",
-			"id": 2147483597,
+			"id": 2147483637,
+			"previousTabType": "method",
+			"previousTabID": 2147483644,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "InitInfo"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483644,
+			"previousTabType": "method",
+			"previousTabID": 2147483614,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "manageTexts"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483614,
 			"previousTabType": "method",
 			"previousTabID": 2147483645,
 			"codeDescriptor": {
@@ -16,7 +44,7 @@
 			"type": "method",
 			"id": 2147483645,
 			"previousTabType": "method",
-			"previousTabID": 2147483642,
+			"previousTabID": 2147483641,
 			"codeDescriptor": {
 				"type": 1,
 				"methodName": "addData"
@@ -24,9 +52,9 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483642,
+			"id": 2147483641,
 			"previousTabType": "method",
-			"previousTabID": 2147483636,
+			"previousTabID": 2147483635,
 			"codeDescriptor": {
 				"type": 1,
 				"methodName": "loginAs"
@@ -34,9 +62,9 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483636,
+			"id": 2147483635,
 			"previousTabType": "method",
-			"previousTabID": 2147483626,
+			"previousTabID": 2147483625,
 			"codeDescriptor": {
 				"type": 1,
 				"methodName": "draftCode"
@@ -44,9 +72,9 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483626,
+			"id": 2147483625,
 			"previousTabType": "method",
-			"previousTabID": 2147483623,
+			"previousTabID": 2147483622,
 			"codeDescriptor": {
 				"type": 11,
 				"className": "Records",
@@ -55,9 +83,9 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483623,
+			"id": 2147483622,
 			"previousTabType": "method",
-			"previousTabID": 2147483620,
+			"previousTabID": 2147483615,
 			"codeDescriptor": {
 				"type": 11,
 				"className": "DataStore",
@@ -66,9 +94,9 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483620,
+			"id": 2147483615,
 			"previousTabType": "form",
-			"previousTabID": 632,
+			"previousTabID": 1179,
 			"codeDescriptor": {
 				"type": 3,
 				"formName": "HDI2",
@@ -77,7 +105,7 @@
 		},
 		{
 			"type": "form",
-			"id": 632,
+			"id": 1179,
 			"formName": "HDI2"
 		},
 		{

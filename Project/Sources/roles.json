@@ -23,18 +23,6 @@
 				"type": "datastore",
 				"read": [
 					"nobody"
-				],
-				"create": [
-					"nobody"
-				],
-				"update": [
-					"nobody"
-				],
-				"drop": [
-					"nobody"
-				],
-				"execute": [
-					"nobody"
 				]
 			},
 			{

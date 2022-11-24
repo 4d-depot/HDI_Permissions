@@ -63,7 +63,7 @@
 					"height": 1200,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"dataSource": "Infos[0].Description",
+					"dataSource": "_Descriptions[0]",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -108,7 +108,7 @@
 					"height": 50,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"dataSource": "Infos[1].Description",
+					"dataSource": "_Descriptions[1]",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -132,7 +132,7 @@
 					"width": 850,
 					"height": 180,
 					"sizingY": "grow",
-					"dataSource": "Infos[2].Description",
+					"dataSource": "_Descriptions[2]",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -148,7 +148,7 @@
 				"Input20": {
 					"type": "input",
 					"left": 40,
-					"top": 370,
+					"top": 350,
 					"width": 400,
 					"height": 20,
 					"enterable": false,
@@ -161,7 +161,7 @@
 				"metrics8": {
 					"type": "input",
 					"left": 40,
-					"top": 440,
+					"top": 420,
 					"width": 440,
 					"height": 400,
 					"enterable": false,
@@ -181,9 +181,9 @@
 				"Button19": {
 					"type": "button",
 					"text": "Run",
-					"top": 340,
-					"left": 40,
-					"width": 150,
+					"top": 350,
+					"left": 460,
+					"width": 100,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -202,122 +202,22 @@
 					"dataSource": "Form:C1466.roles",
 					"styledText": true
 				},
-				"Button20": {
-					"type": "button",
-					"text": "Read patients",
-					"top": 340,
-					"left": 500,
-					"width": 150,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button20.4dm",
-					"focusable": false
-				},
-				"Button21": {
-					"type": "button",
-					"text": "Login as Doctor",
-					"top": 260,
-					"left": 500,
-					"width": 130,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button21.4dm",
-					"focusable": false
-				},
-				"List Box3": {
-					"type": "listbox",
-					"left": 500,
-					"top": 440,
-					"width": 295,
-					"height": 201,
-					"events": [
-						"onClick",
-						"onHeaderClick",
-						"onDataChange",
-						"onSelectionChange"
-					],
-					"listboxType": "collection",
-					"dataSource": "Form:C1466.records",
-					"selectionMode": "none",
-					"rowHeight": "20px",
-					"headerHeight": "21px",
-					"focusable": false,
-					"scrollbarHorizontal": "hidden",
-					"columns": [
-						{
-							"header": {
-								"text": "Date",
-								"name": "Header7"
-							},
-							"name": "Column7",
-							"footer": {
-								"name": "Footer7"
-							},
-							"dataSource": "This:C1470.creationDate",
-							"dataSourceTypeHint": "date",
-							"width": 80
-						},
-						{
-							"header": {
-								"name": "Header8",
-								"text": "Report"
-							},
-							"name": "Column8",
-							"footer": {
-								"name": "Footer8"
-							},
-							"dataSource": "This:C1470.report",
-							"width": 200
-						}
-					]
-				},
-				"Input22": {
-					"type": "input",
-					"left": 500,
-					"top": 290,
-					"width": 250,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "system",
-					"dataSource": "_Directions[3]",
-					"styledText": true
-				},
-				"Input23": {
-					"type": "input",
-					"left": 500,
-					"top": 370,
-					"width": 250,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "system",
-					"dataSource": "_Directions[4]",
-					"styledText": true
-				},
 				"Text16": {
 					"type": "text",
 					"text": "Request response",
-					"top": 420,
+					"top": 400,
 					"left": 40,
 					"width": 180,
 					"height": 20,
 					"fontWeight": "bold"
 				},
-				"Text17": {
+				"Text13": {
 					"type": "text",
-					"text": "Records",
-					"top": 420,
-					"left": 500,
-					"width": 100,
-					"height": 20,
-					"fontWeight": "bold"
+					"text": "",
+					"top": 270,
+					"left": 40,
+					"width": 350,
+					"height": 20
 				}
 			}
 		},
@@ -330,7 +230,7 @@
 					"width": 850,
 					"height": 180,
 					"sizingY": "grow",
-					"dataSource": "Infos[3].Description",
+					"dataSource": "_Descriptions[3]",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -343,6 +243,20 @@
 						"onDataChange"
 					]
 				},
+				"Text": {
+					"type": "text",
+					"text": "",
+					"top": 120,
+					"left": 430,
+					"width": 210,
+					"height": 20,
+					"fontWeight": "bold",
+					"fontSize": 14
+				}
+			}
+		},
+		{
+			"objects": {
 				"Button2": {
 					"type": "button",
 					"text": "Login as Admin",
@@ -378,16 +292,6 @@
 					"enterable": false,
 					"focusable": false,
 					"dataSource": "Form:C1466.info"
-				},
-				"Text": {
-					"type": "text",
-					"text": "",
-					"top": 120,
-					"left": 430,
-					"width": 210,
-					"height": 20,
-					"fontWeight": "bold",
-					"fontSize": 14
 				},
 				"Button7": {
 					"type": "button",
@@ -577,7 +481,7 @@
 					"width": 850,
 					"height": 150,
 					"sizingY": "grow",
-					"dataSource": "Infos[4].Description",
+					"dataSource": "_Descriptions[4]",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -837,7 +741,7 @@
 					"width": 760,
 					"height": 180,
 					"sizingY": "grow",
-					"dataSource": "Infos[5].Description",
+					"dataSource": "_Descriptions[5]",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -1005,7 +909,7 @@
 					"width": 850,
 					"height": 180,
 					"sizingY": "grow",
-					"dataSource": "Infos[6].Description",
+					"dataSource": "_Descriptions[6]",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -1018,42 +922,6 @@
 						"onDataChange"
 					]
 				},
-				"Button14": {
-					"type": "button",
-					"text": "Login as Admin",
-					"top": 260,
-					"left": 40,
-					"width": 130,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button14.4dm",
-					"focusable": false
-				},
-				"Input15": {
-					"type": "input",
-					"left": 40,
-					"top": 370,
-					"width": 400,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "system",
-					"dataSource": "_Directions[0]",
-					"styledText": true
-				},
-				"metrics6": {
-					"type": "input",
-					"left": 40,
-					"top": 440,
-					"width": 440,
-					"height": 400,
-					"enterable": false,
-					"focusable": false,
-					"dataSource": "Form:C1466.info"
-				},
 				"Text10": {
 					"type": "text",
 					"text": "",
@@ -1063,169 +931,6 @@
 					"height": 20,
 					"fontWeight": "bold",
 					"fontSize": 14
-				},
-				"Button15": {
-					"type": "button",
-					"text": "Delete records from",
-					"top": 340,
-					"left": 40,
-					"width": 150,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button15.4dm",
-					"focusable": false
-				},
-				"metrics7": {
-					"type": "input",
-					"left": 820,
-					"top": 260,
-					"width": 350,
-					"height": 600,
-					"enterable": false,
-					"focusable": false,
-					"dataSource": "Form:C1466.roles",
-					"styledText": true
-				},
-				"Button16": {
-					"type": "button",
-					"text": "Read patients",
-					"top": 340,
-					"left": 500,
-					"width": 150,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button16.4dm",
-					"focusable": false
-				},
-				"Button17": {
-					"type": "button",
-					"text": "Login as Doctor",
-					"top": 260,
-					"left": 500,
-					"width": 130,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button17.4dm",
-					"focusable": false
-				},
-				"List Box2": {
-					"type": "listbox",
-					"left": 500,
-					"top": 440,
-					"width": 295,
-					"height": 201,
-					"events": [
-						"onClick",
-						"onHeaderClick",
-						"onDataChange",
-						"onSelectionChange"
-					],
-					"listboxType": "collection",
-					"dataSource": "Form:C1466.records",
-					"selectionMode": "none",
-					"rowHeight": "20px",
-					"headerHeight": "21px",
-					"focusable": false,
-					"scrollbarHorizontal": "hidden",
-					"columns": [
-						{
-							"header": {
-								"text": "Date",
-								"name": "Header5"
-							},
-							"name": "Column5",
-							"footer": {
-								"name": "Footer5"
-							},
-							"dataSource": "This:C1470.creationDate",
-							"dataSourceTypeHint": "date",
-							"width": 80
-						},
-						{
-							"header": {
-								"name": "Header6",
-								"text": "Report"
-							},
-							"name": "Column6",
-							"footer": {
-								"name": "Footer6"
-							},
-							"dataSource": "This:C1470.report",
-							"width": 200
-						}
-					]
-				},
-				"Input16": {
-					"type": "input",
-					"left": 40,
-					"top": 290,
-					"width": 250,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "system",
-					"dataSource": "_Directions[2]",
-					"styledText": true
-				},
-				"Input17": {
-					"type": "input",
-					"left": 500,
-					"top": 290,
-					"width": 250,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "system",
-					"dataSource": "_Directions[3]",
-					"styledText": true
-				},
-				"Input18": {
-					"type": "input",
-					"left": 500,
-					"top": 370,
-					"width": 250,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "system",
-					"dataSource": "_Directions[4]",
-					"styledText": true
-				},
-				"Text11": {
-					"type": "text",
-					"text": "Request response",
-					"top": 420,
-					"left": 40,
-					"width": 180,
-					"height": 20,
-					"fontWeight": "bold"
-				},
-				"Input19": {
-					"type": "input",
-					"left": 220,
-					"top": 340,
-					"width": 100,
-					"height": 20,
-					"dataSource": "Form:C1466.date",
-					"dataSourceTypeHint": "date"
-				},
-				"Text12": {
-					"type": "text",
-					"text": "Records",
-					"top": 420,
-					"left": 500,
-					"width": 100,
-					"height": 20,
-					"fontWeight": "bold"
 				}
 			}
 		},
@@ -1242,6 +947,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 1989,
+	"geometryStamp": 2103,
 	"windowSizingY": "variable"
 }

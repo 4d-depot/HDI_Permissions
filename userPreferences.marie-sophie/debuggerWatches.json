@@ -1,52 +1,19 @@
 [
 	{
 		"type": 66,
-		"formula": "$notDropped"
+		"formula": "_Directions"
 	},
 	{
 		"type": 66,
-		"formula": "Form:C1466.ds.Records",
+		"formula": "//new expression"
+	},
+	{
+		"type": 66,
+		"formula": "$text"
+	},
+	{
+		"type": 66,
+		"formula": "_Descriptions",
 		"expanded": true
-	},
-	{
-		"type": 66,
-		"formula": "$toDelete"
-	},
-	{
-		"type": 66,
-		"formula": "Form:C1466.ds.Records.all()"
-	},
-	{
-		"type": 66,
-		"formula": "Form:C1466.info"
-	},
-	{
-		"type": 66,
-		"formula": "Form:C1466.date"
-	},
-	{
-		"type": 66,
-		"formula": "Generate password hash:C1533($password)"
-	},
-	{
-		"type": 66,
-		"formula": "$password"
-	},
-	{
-		"type": 66,
-		"formula": "$user",
-		"expanded": true
-	},
-	{
-		"type": 66,
-		"formula": "$role"
-	},
-	{
-		"type": 66,
-		"formula": "Session:C1714._getPrivileges()"
-	},
-	{
-		"type": 66,
-		"formula": "Form:C1466.ds"
 	}
 ]

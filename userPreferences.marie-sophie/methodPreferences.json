@@ -45,22 +45,22 @@
 		"stamp": "2022-06-28T11:47:37.415Z"
 	},
 	"Sources/Forms/HDI2/method.4dm": {
-		"startSelection": 47,
-		"endSelection": 47,
-		"firstSelectedLine": 9,
-		"lastSelectedLine": 9,
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 40,
+		"lastSelectedLine": 40,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-11-24T12:01:22.206Z"
+		"stamp": "2022-11-24T12:45:53.993Z"
 	},
 	"Sources/Methods/InitInfo.4dm": {
 		"startSelection": 0,
-		"endSelection": 11,
-		"firstSelectedLine": 8,
-		"lastSelectedLine": 8,
+		"endSelection": 30,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 4,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-06-29T09:44:00.205Z"
+		"stamp": "2022-11-24T13:01:24.275Z"
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button3.4dm": {
 		"startSelection": 2,
@@ -340,5 +340,14 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2022-11-24T12:20:36.391Z"
+	},
+	"Sources/Methods/manageTexts.4dm": {
+		"startSelection": 25,
+		"endSelection": 25,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-11-24T13:03:06.238Z"
 	}
 }

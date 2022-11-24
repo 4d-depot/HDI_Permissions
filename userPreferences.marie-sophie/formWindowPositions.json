@@ -1,8 +1,14 @@
 {
 	"Sources/Forms/HDI2/form.4DForm": {
-		"left": 366,
-		"top": 174,
+		"left": 248,
+		"top": 165,
 		"width": 2060,
 		"height": 1127
+	},
+	"Sources/TableForms/1/Input/form.4DForm": {
+		"left": 248,
+		"top": 137,
+		"width": 2060,
+		"height": 1155
 	}
 }
