@@ -1,14 +1,6 @@
 {
 	"editors": [
 		{
-			"type": "form",
-			"id": 1181,
-			"previousTabType": "method",
-			"previousTabID": 2147483637,
-			"table": 1,
-			"formName": "Input"
-		},
-		{
 			"type": "method",
 			"id": 2147483637,
 			"previousTabType": "method",
@@ -96,7 +88,7 @@
 			"type": "method",
 			"id": 2147483615,
 			"previousTabType": "form",
-			"previousTabID": 1179,
+			"previousTabID": 1448,
 			"codeDescriptor": {
 				"type": 3,
 				"formName": "HDI2",
@@ -105,14 +97,11 @@
 		},
 		{
 			"type": "form",
-			"id": 1179,
+			"id": 1448,
 			"formName": "HDI2"
 		},
 		{
 			"type": "explorer"
-		},
-		{
-			"type": "structure"
 		}
 	]
 }
