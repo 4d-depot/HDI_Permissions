@@ -7,8 +7,8 @@ End if
 Case of 
 	: (Form event code:C388=On Clicked:K2:4)
 		
-		loginAs("ann.brown@4d.com"; "a")
+		$response:=RESTRequest("ConfidentialInformation"; HTTP GET method:K71:1)
 		
-		//Form.info:=Form.ds.loginAs("ann.brown@4d.com"; "a")
+		Form:C1466.info:=$response
 		
 End case 

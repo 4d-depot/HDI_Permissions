@@ -9,21 +9,19 @@
 		}
 	},
 	{
-		"line": 13,
+		"line": 4,
 		"method": {
-			"type": 2,
-			"formName": "HDI2",
-			"objectName": "Button2",
-			"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button2.4dm"
+			"type": 10,
+			"className": "Records",
+			"functionName": "deleteFrom",
+			"methodPath": "/SOURCES/Classes/Records.4dm"
 		}
 	},
 	{
-		"line": 2,
+		"line": 9,
 		"method": {
-			"type": 10,
-			"className": "DataStore",
-			"functionName": "loginAs",
-			"methodPath": "/SOURCES/Classes/DataStore.4dm"
+			"type": 1,
+			"methodName": "draftCode"
 		}
 	}
 ]

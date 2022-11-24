@@ -1,6 +1,31 @@
 [
 	{
 		"type": 66,
+		"formula": "$notDropped"
+	},
+	{
+		"type": 66,
+		"formula": "Form:C1466.ds.Records",
+		"expanded": true
+	},
+	{
+		"type": 66,
+		"formula": "$toDelete"
+	},
+	{
+		"type": 66,
+		"formula": "Form:C1466.ds.Records.all()"
+	},
+	{
+		"type": 66,
+		"formula": "Form:C1466.info"
+	},
+	{
+		"type": 66,
+		"formula": "Form:C1466.date"
+	},
+	{
+		"type": 66,
 		"formula": "Generate password hash:C1533($password)"
 	},
 	{

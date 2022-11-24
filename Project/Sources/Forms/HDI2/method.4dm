@@ -6,8 +6,8 @@ Case of
 		
 		InitInfo
 		
-		$connect:=New object:C1471("hostname"; "127.0.0.1:8044")
-		Form:C1466.ds:=Open datastore:C1452($connect; "remoteDS")
+		//$connect:=New object("hostname"; "127.0.0.1:8044")
+		//Form.ds:=Open datastore($connect; "remoteDS")
 		
 		
 		READ WRITE:C146(*)

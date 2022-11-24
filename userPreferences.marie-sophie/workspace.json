@@ -2,9 +2,21 @@
 	"editors": [
 		{
 			"type": "method",
+			"id": 2147483597,
+			"previousTabType": "method",
+			"previousTabID": 2147483645,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "HDI2",
+				"objectName": "Button19",
+				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button19.4dm"
+			}
+		},
+		{
+			"type": "method",
 			"id": 2147483645,
 			"previousTabType": "method",
-			"previousTabID": 2147483625,
+			"previousTabID": 2147483642,
 			"codeDescriptor": {
 				"type": 1,
 				"methodName": "addData"
@@ -12,31 +24,38 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483625,
+			"id": 2147483642,
 			"previousTabType": "method",
-			"previousTabID": 2147483615,
+			"previousTabID": 2147483636,
 			"codeDescriptor": {
-				"type": 2,
-				"formName": "HDI2",
-				"objectName": "Button2",
-				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button2.4dm"
+				"type": 1,
+				"methodName": "loginAs"
 			}
 		},
 		{
 			"type": "method",
-			"id": 2147483615,
+			"id": 2147483636,
 			"previousTabType": "method",
-			"previousTabID": 2147483624,
+			"previousTabID": 2147483626,
 			"codeDescriptor": {
-				"type": 2,
-				"formName": "HDI2",
-				"objectName": "Button9",
-				"methodPath": "/SOURCES/Forms/HDI2/ObjectMethods/Button9.4dm"
+				"type": 1,
+				"methodName": "draftCode"
 			}
 		},
 		{
 			"type": "method",
-			"id": 2147483624,
+			"id": 2147483626,
+			"previousTabType": "method",
+			"previousTabID": 2147483623,
+			"codeDescriptor": {
+				"type": 11,
+				"className": "Records",
+				"methodPath": "/SOURCES/Classes/Records.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483623,
 			"previousTabType": "method",
 			"previousTabID": 2147483620,
 			"codeDescriptor": {
@@ -49,7 +68,7 @@
 			"type": "method",
 			"id": 2147483620,
 			"previousTabType": "form",
-			"previousTabID": 1302,
+			"previousTabID": 632,
 			"codeDescriptor": {
 				"type": 3,
 				"formName": "HDI2",
@@ -58,14 +77,14 @@
 		},
 		{
 			"type": "form",
-			"id": 1302,
+			"id": 632,
 			"formName": "HDI2"
 		},
 		{
-			"type": "structure"
+			"type": "explorer"
 		},
 		{
-			"type": "explorer"
+			"type": "structure"
 		}
 	]
 }

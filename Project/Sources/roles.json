@@ -60,6 +60,9 @@
 				],
 				"update": [
 					"doctor"
+				],
+				"drop": [
+					"admin"
 				]
 			},
 			{
@@ -127,32 +130,32 @@
 			"id": "3zQv7uRLRAxv6TtUX4xHxN",
 			"role": "The Admin",
 			"privileges": [
-				"4zvRYnwyuJP8QUfpnmzgWG"
+				"admin"
 			]
 		},
 		{
 			"id": "gLiEYreYPZfAkpbC3nN3zW",
 			"role": "The Patient",
 			"privileges": [
-				"bE2zXdUdNApVnLgYpTy4fF"
+				"patient"
 			]
 		},
 		{
 			"id": "ckNrcS4FRMSfBRkH7JPoqx",
 			"role": "The Doctor",
-			"privileges": []
+			"privileges": ["doctor"]
 		},
 		{
 			"id": "rYTineJeH3vUy8vFd3nDDF",
 			"role": "The Intern",
-			"privileges": []
+			"privileges": ["intern"]
 		},
 		{
 			"id": "oSaHuE3sibi68HK1AAdGPW",
 			"role": "The Secretary",
 			"privileges": [
-				"bE2zXdUdNApVnLgYpTy4fF",
-				"9kdFZg5rE8MVKtDUu2Ncie"
+				"patient",
+				"createPatient"
 			]
 		}
 	]

@@ -28,12 +28,11 @@
 		<field name="creationDate" uuid="F651DEF706A04CFEAC9C04C0A6A10E39" type="8" never_null="true" id="2"/>
 		<field name="personalNotes" uuid="BAFE6561AB9E49BB96A786BD6B98BDDD" type="10" limiting_length="255" never_null="true" id="3"/>
 		<field name="report" uuid="9EF873C367C84F14BD2772B55A755764" type="10" limiting_length="255" never_null="true" id="4"/>
-		<field name="prop" uuid="6AE4352BD39A474A8374432206E6234C" type="21" blob_switch_size="2147483647" never_null="true" id="5"/>
 		<primary_key field_name="ID" field_uuid="4D3F08AC172A4A1284A3CFEA52361548"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="8">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="137.20166015625" top="204.48783874512" width="175.93334960938" height="222.52499389648"/>
+				<coordinates left="0" top="205.48783874512" width="175.93334960938" height="222.52499389648"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -46,7 +45,7 @@
 		<table_extra>
 			<editor_table_info displayable_fields_count="6">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="540.47540283203" top="207.18844604492" width="120" height="167.33203125"/>
+				<coordinates left="405.47540283203" top="209.18844604492" width="120" height="167.33203125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -58,10 +57,26 @@
 		<table_extra>
 			<editor_table_info displayable_fields_count="6">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="343.41320800781" top="210.74749755859" width="120" height="167.33203125"/>
+				<coordinates left="227.41320800781" top="208.74749755859" width="120" height="167.33203125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
+	<table name="ConfidentialInformation" uuid="17B90DCB8A8B4B539DBCEC057506BD07" id="5">
+		<field name="ID" uuid="A9C9A3E906B9462EA8E149C721D507FD" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="description" uuid="3CFA731FB65F431B96FA89634334F732" type="10" limiting_length="255" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="A9C9A3E906B9462EA8E149C721D507FD"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="577" top="212" width="185" height="180.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="078CB3F667844E259339BBF9A3DC789B" type="7">
+		<field_ref uuid="A9C9A3E906B9462EA8E149C721D507FD" name="ID">
+			<table_ref uuid="17B90DCB8A8B4B539DBCEC057506BD07" name="ConfidentialInformation"/>
+		</field_ref>
+	</index>
 	<index kind="regular" unique_keys="true" uuid="3B071F5158D54116BC2EB3CB618CC488" type="7">
 		<field_ref uuid="4D3F08AC172A4A1284A3CFEA52361548" name="ID">
 			<table_ref uuid="64788603018E46CE8042DB231FA57EE0" name="Records"/>

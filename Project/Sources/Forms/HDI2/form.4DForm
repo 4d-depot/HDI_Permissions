@@ -100,30 +100,18 @@
 						"onDataChange"
 					]
 				},
-				"Button11": {
-					"type": "button",
-					"text": "Show roles.json file on disk",
-					"top": 600,
-					"left": 50,
-					"width": 220,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button11.4dm",
-					"focusable": false
-				},
-				"information5": {
+				"information9": {
 					"type": "input",
-					"top": 160,
-					"left": 550,
-					"width": 340,
-					"height": 680,
+					"top": 73,
+					"left": 62,
+					"width": 732,
+					"height": 50,
+					"sizingX": "grow",
 					"sizingY": "grow",
-					"dataSource": "_Directions[6]",
+					"dataSource": "Infos[1].Description",
 					"focusable": false,
 					"fill": "transparent",
-					"borderStyle": "dotted",
+					"borderStyle": "none",
 					"enterable": false,
 					"styledText": true,
 					"contextMenu": "none",
@@ -132,15 +120,19 @@
 					"events": [
 						"onDataChange"
 					]
-				},
-				"information6": {
+				}
+			}
+		},
+		{
+			"objects": {
+				"information8": {
 					"type": "input",
-					"top": 90,
+					"top": 70,
 					"left": 50,
-					"width": 800,
-					"height": 50,
+					"width": 850,
+					"height": 180,
 					"sizingY": "grow",
-					"dataSource": "_Directions[7]",
+					"dataSource": "Infos[2].Description",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -153,27 +145,179 @@
 						"onDataChange"
 					]
 				},
-				"Text13": {
-					"type": "text",
-					"text": "Faire la fermeture globale au niveau datastore et expliquer",
-					"top": 660,
-					"left": 46,
-					"width": 366,
-					"height": 64,
-					"fontWeight": "bold",
-					"stroke": "#dc143c",
-					"fontSize": 18
+				"Input20": {
+					"type": "input",
+					"left": 40,
+					"top": 370,
+					"width": 400,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[14]",
+					"styledText": true
 				},
-				"Text14": {
+				"metrics8": {
+					"type": "input",
+					"left": 40,
+					"top": 440,
+					"width": 440,
+					"height": 400,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.info"
+				},
+				"Text15": {
 					"type": "text",
-					"text": "Mettre login as accessible pour guest et expliquer",
-					"top": 744,
-					"left": 46,
-					"width": 366,
-					"height": 64,
+					"text": "",
+					"top": 120,
+					"left": 430,
+					"width": 210,
+					"height": 20,
 					"fontWeight": "bold",
-					"stroke": "#dc143c",
-					"fontSize": 18
+					"fontSize": 14
+				},
+				"Button19": {
+					"type": "button",
+					"text": "Run",
+					"top": 340,
+					"left": 40,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button19.4dm",
+					"focusable": false
+				},
+				"metrics9": {
+					"type": "input",
+					"left": 820,
+					"top": 260,
+					"width": 350,
+					"height": 600,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.roles",
+					"styledText": true
+				},
+				"Button20": {
+					"type": "button",
+					"text": "Read patients",
+					"top": 340,
+					"left": 500,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button20.4dm",
+					"focusable": false
+				},
+				"Button21": {
+					"type": "button",
+					"text": "Login as Doctor",
+					"top": 260,
+					"left": 500,
+					"width": 130,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button21.4dm",
+					"focusable": false
+				},
+				"List Box3": {
+					"type": "listbox",
+					"left": 500,
+					"top": 440,
+					"width": 295,
+					"height": 201,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.records",
+					"selectionMode": "none",
+					"rowHeight": "20px",
+					"headerHeight": "21px",
+					"focusable": false,
+					"scrollbarHorizontal": "hidden",
+					"columns": [
+						{
+							"header": {
+								"text": "Date",
+								"name": "Header7"
+							},
+							"name": "Column7",
+							"footer": {
+								"name": "Footer7"
+							},
+							"dataSource": "This:C1470.creationDate",
+							"dataSourceTypeHint": "date",
+							"width": 80
+						},
+						{
+							"header": {
+								"name": "Header8",
+								"text": "Report"
+							},
+							"name": "Column8",
+							"footer": {
+								"name": "Footer8"
+							},
+							"dataSource": "This:C1470.report",
+							"width": 200
+						}
+					]
+				},
+				"Input22": {
+					"type": "input",
+					"left": 500,
+					"top": 290,
+					"width": 250,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[3]",
+					"styledText": true
+				},
+				"Input23": {
+					"type": "input",
+					"left": 500,
+					"top": 370,
+					"width": 250,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[4]",
+					"styledText": true
+				},
+				"Text16": {
+					"type": "text",
+					"text": "Request response",
+					"top": 420,
+					"left": 40,
+					"width": 180,
+					"height": 20,
+					"fontWeight": "bold"
+				},
+				"Text17": {
+					"type": "text",
+					"text": "Records",
+					"top": 420,
+					"left": 500,
+					"width": 100,
+					"height": 20,
+					"fontWeight": "bold"
 				}
 			}
 		},
@@ -186,7 +330,7 @@
 					"width": 850,
 					"height": 180,
 					"sizingY": "grow",
-					"dataSource": "Infos[2].Description",
+					"dataSource": "Infos[3].Description",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -433,7 +577,7 @@
 					"width": 850,
 					"height": 150,
 					"sizingY": "grow",
-					"dataSource": "Infos[3].Description",
+					"dataSource": "Infos[4].Description",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -693,7 +837,7 @@
 					"width": 760,
 					"height": 180,
 					"sizingY": "grow",
-					"dataSource": "Infos[4].Description",
+					"dataSource": "Infos[5].Description",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -861,7 +1005,7 @@
 					"width": 850,
 					"height": 180,
 					"sizingY": "grow",
-					"dataSource": "Infos[5].Description",
+					"dataSource": "Infos[6].Description",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -1098,6 +1242,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 1974,
+	"geometryStamp": 1989,
 	"windowSizingY": "variable"
 }

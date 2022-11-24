@@ -1,8 +1,8 @@
 {
 	"Sources/Forms/HDI2/ObjectMethods/Button2.4dm": {
-		"left": 130,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Forms/runningProcessForm/ObjectMethods/Button1.4dm": {
@@ -12,9 +12,9 @@
 		"height": 984
 	},
 	"Sources/Classes/DataStore.4dm": {
-		"left": 130,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Methods/00_Start.4dm": {
@@ -30,9 +30,9 @@
 		"height": 1012
 	},
 	"Sources/Forms/HDI2/method.4dm": {
-		"left": 130,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Methods/InitInfo.4dm": {
@@ -42,9 +42,9 @@
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button3.4dm": {
-		"left": 296,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/information2.4dm": {
@@ -60,15 +60,15 @@
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button1.4dm": {
-		"left": 355,
-		"top": 157,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button5.4dm": {
-		"left": 130,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button6.4dm": {
@@ -78,10 +78,10 @@
 		"height": 1127
 	},
 	"Sources/Methods/addData.4dm": {
-		"left": 130,
-		"top": 153,
-		"width": 1875,
-		"height": 1155
+		"left": 366,
+		"top": 174,
+		"width": 2060,
+		"height": 1127
 	},
 	"Sources/Methods/buildHeaders.4dm": {
 		"left": 296,
@@ -96,9 +96,9 @@
 		"height": 1127
 	},
 	"Sources/Classes/Records.4dm": {
-		"left": 130,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
@@ -114,9 +114,9 @@
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button7.4dm": {
-		"left": 296,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Methods/RESTRequest.4dm": {
@@ -126,21 +126,21 @@
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button8.4dm": {
-		"left": 296,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button10.4dm": {
-		"left": 355,
-		"top": 157,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button9.4dm": {
-		"left": 130,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button11.4dm": {
@@ -150,27 +150,27 @@
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button4.4dm": {
-		"left": 355,
-		"top": 157,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Methods/loginAs.4dm": {
-		"left": 130,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button13.4dm": {
-		"left": 130,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Sources/Forms/HDI2/ObjectMethods/Button12.4dm": {
-		"left": 130,
-		"top": 181,
-		"width": 1875,
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	},
 	"Trash/Methods/(exportData_TO_DELETE).4dm": {
@@ -213,6 +213,18 @@
 		"left": 272,
 		"top": 228,
 		"width": 1875,
+		"height": 1127
+	},
+	"Sources/Methods/draftCode.4dm": {
+		"left": 366,
+		"top": 174,
+		"width": 2060,
+		"height": 1127
+	},
+	"Sources/Forms/HDI2/ObjectMethods/Button19.4dm": {
+		"left": 366,
+		"top": 174,
+		"width": 2060,
 		"height": 1127
 	}
 }
