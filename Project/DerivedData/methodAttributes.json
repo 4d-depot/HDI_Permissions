@@ -12,11 +12,17 @@
 		"addData": {
 			"timeStamp": "2022-11-25T11:20:08Z"
 		},
+		"hasPrivilege": {
+			"timeStamp": "2022-11-25T11:56:17Z"
+		},
 		"manageTexts": {
 			"timeStamp": "2022-11-24T13:03:06Z"
 		},
 		"initStorage": {
 			"timeStamp": "2022-08-05T14:05:21Z"
+		},
+		"clearPrivileges": {
+			"timeStamp": "2022-11-25T12:05:19Z"
 		},
 		"buildHeaders": {
 			"timeStamp": "2022-08-05T13:46:11Z"

@@ -18,3 +18,13 @@ exposed Function loginAs($identifier : Text; $password : Text)->$result : Text
 	End if 
 	
 	
+exposed Function hasPrivilege($privilege : Text)->$result : Text
+	
+	If (Session:C1714.hasPrivilege($privilege))
+		$result:="The session contains the "+$privilege+" privilege"
+	End if 
+	
+	
+exposed Function clearPrivileges()
+	Session:C1714.clearPrivileges()
+	

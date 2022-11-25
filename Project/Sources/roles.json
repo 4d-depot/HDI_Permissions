@@ -2,6 +2,16 @@
 	"permissions": {
 		"allowed": [
 			{
+				"applyTo": "Patients",
+				"type": "dataclass",
+				"create": [
+					"createPatient"
+				],
+				"read": [
+					"doctor"
+				]
+			},
+			{
 				"applyTo": "Users",
 				"type": "dataclass",
 				"read": [
@@ -26,19 +36,6 @@
 				]
 			},
 			{
-				"applyTo": "Patients",
-				"type": "dataclass",
-				"create": [
-					"createPatient"
-				],
-				"drop": [
-					"dropPatient"
-				],
-				"read": [
-					"doctor"
-				]
-			},
-			{
 				"applyTo": "Records",
 				"type": "dataclass",
 				"read": [
@@ -46,20 +43,10 @@
 					"intern",
 					"admin"
 				],
-				"create": [
-					"doctor"
-				],
-				"update": [
-					"doctor"
-				],
 				"drop": [
 					"admin"
-				]
-			},
-			{
-				"applyTo": "Records.personalNotes",
-				"type": "attribute",
-				"read": [
+				],
+				"create": [
 					"doctor"
 				]
 			},
@@ -69,10 +56,18 @@
 				"execute": [
 					"admin"
 				]
+			},
+			{
+				"applyTo": "Records.personalNotes",
+				"type": "attribute",
+				"read": [
+					"doctor"
+				]
 			}
 		]
 	},
 	"privileges": [
+		
 		{
 			"id": "wshE1PHEwUqijcDQpMfxQY",
 			"privilege": "readUsers",
@@ -104,11 +99,6 @@
 			"includes": []
 		},
 		{
-			"id": "px89pdtMG3vXhPw8hS4HAa",
-			"privilege": "guest",
-			"includes": []
-		},
-		{
 			"id": "huDwA9PdXACBgJX1vUYE3Q",
 			"privilege": "doctor",
 			"includes": [
@@ -134,19 +124,23 @@
 		{
 			"id": "ckNrcS4FRMSfBRkH7JPoqx",
 			"role": "The Doctor",
-			"privileges": ["doctor"]
+			"privileges": [
+				"doctor"
+			]
 		},
 		{
 			"id": "rYTineJeH3vUy8vFd3nDDF",
 			"role": "The Intern",
-			"privileges": ["intern"]
+			"privileges": [
+				"intern"
+			]
 		},
 		{
 			"id": "oSaHuE3sibi68HK1AAdGPW",
 			"role": "The Secretary",
 			"privileges": [
-				"dropPatient",
-				"createPatient"
+				"createPatient",
+				"intern"
 			]
 		}
 	]

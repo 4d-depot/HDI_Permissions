@@ -51,8 +51,8 @@
 	</table>
 	<table name="Patients" uuid="6FE6CCFF87E6447EB6BAE5A463F11B31" id="4">
 		<field name="ID" uuid="29619D579B9A454281244FB40512A108" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
-		<field name="firstName" uuid="E7F329A1F9354D8FA15C34ADF6C89388" type="10" limiting_length="255" never_null="true" id="2"/>
-		<field name="lastName" uuid="440696963ADD4AC78064247A2465FD98" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="firstname" uuid="E7F329A1F9354D8FA15C34ADF6C89388" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="lastname" uuid="440696963ADD4AC78064247A2465FD98" type="10" limiting_length="255" never_null="true" id="3"/>
 		<primary_key field_name="ID" field_uuid="29619D579B9A454281244FB40512A108"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="6">

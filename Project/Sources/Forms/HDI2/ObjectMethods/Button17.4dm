@@ -12,6 +12,6 @@ Case of
 		
 		Form:C1466.info:=$response
 		
-		Form:C1466.patients:=ds:C1482.Patients.all().orderBy("ID asc")
+		Form:C1466.patients:=ds:C1482.Patients.all().orderBy("ID desc")
 		
 End case 

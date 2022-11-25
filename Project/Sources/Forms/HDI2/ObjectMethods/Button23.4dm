@@ -7,6 +7,9 @@ End if
 Case of 
 	: (Form event code:C388=On Clicked:K2:4)
 		
-		loginAs("albert.evans@4d.com"; "a")
+		loginAs("helen.cooper@4d.com"; "a")
+		
+		
+		hasPrivilege("patient")
 		
 End case 
