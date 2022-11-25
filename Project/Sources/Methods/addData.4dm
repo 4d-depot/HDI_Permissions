@@ -62,3 +62,9 @@ $user.identifier:="helen.cooper@4d.com"
 $user.password:=Generate password hash:C1533("a")
 $user.role:="The Patient"
 $status:=$user.save()
+
+$user:=ds:C1482.Users.new()
+$user.identifier:="albert.evans@4d.com"
+$user.password:=Generate password hash:C1533("a")
+$user.role:="The Secretary"
+$status:=$user.save()

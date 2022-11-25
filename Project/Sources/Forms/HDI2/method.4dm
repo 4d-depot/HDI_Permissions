@@ -24,6 +24,9 @@ Case of
 		Form:C1466.record:=New object:C1471("creationDate"; Current date:C33(); "report"; "Report"; "personalNotes"; "This is HDI confidential")
 		Form:C1466.records:=ds:C1482.Records.all().orderBy("creationDate")
 		
+		Form:C1466.patients:=ds:C1482.Patients.all()
+		Form:C1466.patient:=New object:C1471("firstname"; "aaa"; "lastname"; "bbb")
+		
 		Form:C1466.info:=Null:C1517
 		
 		If (FORM Get current page:C276=3)

@@ -120,6 +120,19 @@
 					"events": [
 						"onDataChange"
 					]
+				},
+				"Button14": {
+					"type": "button",
+					"text": "Show on disk",
+					"top": 350,
+					"left": 460,
+					"width": 150,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button14.4dm",
+					"focusable": false
 				}
 			}
 		},
@@ -475,7 +488,7 @@
 					"top": 370,
 					"left": 40,
 					"width": 772,
-					"height": 196,
+					"height": 200,
 					"fill": "transparent",
 					"stroke": "#696969",
 					"strokeWidth": 2,
@@ -912,14 +925,6 @@
 		},
 		{
 			"objects": {
-				"Text11": {
-					"type": "text",
-					"text": "Role = several privileges",
-					"top": 606,
-					"left": 170,
-					"width": 224,
-					"height": 138
-				},
 				"information5": {
 					"type": "input",
 					"top": 70,
@@ -939,6 +944,218 @@
 					"events": [
 						"onDataChange"
 					]
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 320,
+					"left": 40,
+					"width": 772,
+					"height": 230,
+					"fill": "transparent",
+					"stroke": "#696969",
+					"strokeWidth": 2,
+					"strokeDashArray": [
+						1,
+						3
+					]
+				},
+				"Button15": {
+					"type": "button",
+					"text": "Login as Secretary",
+					"top": 260,
+					"left": 40,
+					"width": 200,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button15.4dm",
+					"focusable": false
+				},
+				"metrics6": {
+					"type": "input",
+					"left": 40,
+					"top": 590,
+					"width": 440,
+					"height": 280,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.info"
+				},
+				"Text11": {
+					"type": "text",
+					"text": "",
+					"top": 120,
+					"left": 430,
+					"width": 210,
+					"height": 20,
+					"fontWeight": "bold",
+					"fontSize": 14
+				},
+				"metrics7": {
+					"type": "input",
+					"left": 820,
+					"top": 230,
+					"width": 350,
+					"height": 600,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.roles",
+					"styledText": true
+				},
+				"Button17": {
+					"type": "button",
+					"text": "Create patient",
+					"top": 420,
+					"left": 170,
+					"width": 130,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button17.4dm",
+					"focusable": false
+				},
+				"Input16": {
+					"type": "input",
+					"left": 40,
+					"top": 290,
+					"width": 250,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[13]",
+					"styledText": true
+				},
+				"Input18": {
+					"type": "input",
+					"left": 170,
+					"top": 450,
+					"width": 330,
+					"height": 50,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[10]",
+					"styledText": true
+				},
+				"Text12": {
+					"type": "text",
+					"text": "Request response",
+					"top": 570,
+					"left": 40,
+					"width": 180,
+					"height": 22,
+					"fontWeight": "bold"
+				},
+				"Text14": {
+					"type": "text",
+					"text": "Patients",
+					"top": 340,
+					"left": 510,
+					"width": 100,
+					"height": 20,
+					"fontWeight": "bold"
+				},
+				"Input19": {
+					"type": "input",
+					"left": 170,
+					"top": 340,
+					"width": 100,
+					"height": 20,
+					"dataSource": "Form:C1466.patient.firstname",
+					"dataSourceTypeHint": "date"
+				},
+				"Text17": {
+					"type": "text",
+					"text": "Firstname",
+					"top": 390,
+					"left": 50,
+					"width": 100,
+					"height": 20,
+					"textAlign": "right"
+				},
+				"List Box2": {
+					"type": "listbox",
+					"left": 510,
+					"top": 360,
+					"width": 295,
+					"height": 141,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.patients",
+					"selectionMode": "single",
+					"rowHeight": "20px",
+					"headerHeight": "21px",
+					"focusable": false,
+					"scrollbarHorizontal": "hidden",
+					"currentItemSource": "Form:C1466.selectedPatient",
+					"columns": [
+						{
+							"header": {
+								"text": "Firstname",
+								"name": "Header5"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.firstname",
+							"dataSourceTypeHint": "date",
+							"width": 80
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Lastname"
+							},
+							"name": "Column6",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.lastname",
+							"width": 200
+						}
+					]
+				},
+				"Input15": {
+					"type": "input",
+					"left": 170,
+					"top": 380,
+					"width": 100,
+					"height": 20,
+					"dataSource": "Form:C1466.patient.lastname",
+					"dataSourceTypeHint": "date"
+				},
+				"Text18": {
+					"type": "text",
+					"text": "Lastname",
+					"top": 430,
+					"left": 50,
+					"width": 100,
+					"height": 20,
+					"textAlign": "right"
+				},
+				"Button16": {
+					"type": "button",
+					"text": "Create patient",
+					"top": 510,
+					"left": 510,
+					"width": 130,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button16.4dm",
+					"focusable": false
 				}
 			}
 		},
@@ -988,6 +1205,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 2115,
+	"geometryStamp": 2153,
 	"windowSizingY": "variable"
 }

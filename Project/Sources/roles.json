@@ -29,7 +29,10 @@
 				"applyTo": "Patients",
 				"type": "dataclass",
 				"create": [
-					"addPatient"
+					"createPatient"
+				],
+				"drop": [
+					"dropPatient"
 				],
 				"read": [
 					"doctor"
@@ -82,7 +85,7 @@
 		},
 		{
 			"id": "9kdFZg5rE8MVKtDUu2Ncie",
-			"privilege": "addPatient",
+			"privilege": "createPatient",
 			"includes": []
 		},
 		{
@@ -142,7 +145,7 @@
 			"id": "oSaHuE3sibi68HK1AAdGPW",
 			"role": "The Secretary",
 			"privileges": [
-				"patient",
+				"dropPatient",
 				"createPatient"
 			]
 		}
