@@ -1,7 +1,7 @@
 //%attributes = {}
 
 
-#DECLARE($privilege : Text)
+#DECLARE($privilege : Text)->$result : Boolean
 
 ARRAY TEXT:C222($headerNames; 0)
 ARRAY TEXT:C222($headerValues; 0)
@@ -26,7 +26,7 @@ OB SET ARRAY:C1227($headers; "values"; $headerValues)
 
 storeCookie($headers)
 
-Form:C1466.info:=$response.result
+$result:=$response.result
 
 
 

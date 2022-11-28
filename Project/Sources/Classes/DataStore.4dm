@@ -14,15 +14,12 @@ exposed Function loginAs($identifier : Text; $password : Text)->$result : Text
 			Session:C1714.setPrivileges(New object:C1471("roles"; $user.role))
 			$result:="Your are loggued as "+$user.role
 		End if 
-	Else 
 	End if 
 	
 	
-exposed Function hasPrivilege($privilege : Text)->$result : Text
+exposed Function hasPrivilege($privilege : Text)->$result : Boolean
 	
-	If (Session:C1714.hasPrivilege($privilege))
-		$result:="The session contains the "+$privilege+" privilege"
-	End if 
+	$result:=Session:C1714.hasPrivilege($privilege)
 	
 	
 exposed Function clearPrivileges()

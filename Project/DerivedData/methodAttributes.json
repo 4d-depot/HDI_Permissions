@@ -13,7 +13,7 @@
 			"timeStamp": "2022-11-25T11:20:08Z"
 		},
 		"hasPrivilege": {
-			"timeStamp": "2022-11-25T11:56:17Z"
+			"timeStamp": "2022-11-25T14:45:58Z"
 		},
 		"manageTexts": {
 			"timeStamp": "2022-11-24T13:03:06Z"
@@ -35,6 +35,9 @@
 		},
 		"m_Quit": {
 			"timeStamp": "2022-01-03T15:40:53Z"
+		},
+		"checkPrivileges": {
+			"timeStamp": "2022-11-28T14:19:33Z"
 		},
 		"00_Start": {
 			"timeStamp": "2022-07-04T13:40:18Z"

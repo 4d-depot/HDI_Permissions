@@ -9,7 +9,10 @@ Case of
 		
 		loginAs("helen.cooper@4d.com"; "a")
 		
+		Form:C1466.privilege1:="patient"
+		Form:C1466.privilege2:=""
 		
-		hasPrivilege("patient")
+		checkPrivileges
+		
 		
 End case 

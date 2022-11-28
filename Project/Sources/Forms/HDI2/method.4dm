@@ -21,6 +21,8 @@ Case of
 		
 		clearPrivileges
 		
+		checkPrivileges
+		
 		//Form.date:=Date("2022-08-07T00:00:00")
 		Form:C1466.date:=!2022-08-07!
 		Form:C1466.record:=New object:C1471("creationDate"; Current date:C33(); "report"; "Report"; "personalNotes"; "This is HDI confidential")
@@ -30,6 +32,7 @@ Case of
 		Form:C1466.patients:=ds:C1482.Patients.all()
 		
 		Form:C1466.users:=ds:C1482.Users.all()
+		//Form.privilege1:="createPatient"
 		
 		Form:C1466.info:=Null:C1517
 		

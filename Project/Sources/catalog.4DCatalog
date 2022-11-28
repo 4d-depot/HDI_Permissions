@@ -61,7 +61,7 @@
 			</editor_table_info>
 		</table_extra>
 	</table>
-	<table name="ConfidentialInformation" uuid="17B90DCB8A8B4B539DBCEC057506BD07" id="5">
+	<table name="SomeInformation" uuid="17B90DCB8A8B4B539DBCEC057506BD07" id="5">
 		<field name="ID" uuid="A9C9A3E906B9462EA8E149C721D507FD" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
 		<field name="description" uuid="3CFA731FB65F431B96FA89634334F732" type="10" limiting_length="255" never_null="true" id="2"/>
 		<primary_key field_name="ID" field_uuid="A9C9A3E906B9462EA8E149C721D507FD"/>
@@ -74,7 +74,7 @@
 	</table>
 	<index kind="regular" unique_keys="true" uuid="078CB3F667844E259339BBF9A3DC789B" type="7">
 		<field_ref uuid="A9C9A3E906B9462EA8E149C721D507FD" name="ID">
-			<table_ref uuid="17B90DCB8A8B4B539DBCEC057506BD07" name="ConfidentialInformation"/>
+			<table_ref uuid="17B90DCB8A8B4B539DBCEC057506BD07" name="SomeInformation"/>
 		</field_ref>
 	</index>
 	<index kind="regular" unique_keys="true" uuid="3B071F5158D54116BC2EB3CB618CC488" type="7">
