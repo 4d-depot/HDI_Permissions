@@ -3,8 +3,6 @@ Class extends DataClass
 
 exposed Function deleteFrom($date : Text)->$result : Text
 	
-	TRACE:C157
-	
 	$toDelete:=This:C1470.query("creationDate <= :1"; Date:C102($date))
 	
 	$notDropped:=$toDelete.drop()

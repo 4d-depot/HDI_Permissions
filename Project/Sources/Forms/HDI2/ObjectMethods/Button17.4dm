@@ -7,7 +7,7 @@ End if
 Case of 
 	: (Form event code:C388=On Clicked:K2:4)
 		
-		$body:=New collection:C1472(Form:C1466.patient)
+		$body:=New collection:C1472(Form:C1466.patientInfo)
 		$response:=RESTRequest("Patients?$method=update"; HTTP POST method:K71:2; $body)
 		
 		Form:C1466.info:=$response

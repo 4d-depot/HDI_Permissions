@@ -24,11 +24,11 @@ Case of
 		checkPrivileges
 		
 		//Form.date:=Date("2022-08-07T00:00:00")
-		Form:C1466.date:=!2022-08-07!
-		Form:C1466.record:=New object:C1471("creationDate"; Current date:C33(); "report"; "Report"; "personalNotes"; "This is HDI confidential")
+		Form:C1466.date:=Add to date:C393(Current date:C33(); 0; -2; 0)
+		Form:C1466.record:=New object:C1471("creationDate"; Current date:C33(); "report"; "New report created"; "personalNotes"; "These are personal notes")
 		Form:C1466.records:=ds:C1482.Records.all().orderBy("creationDate")
 		
-		Form:C1466.patient:=New object:C1471("firstname"; "aaa"; "lastname"; "bbb")
+		Form:C1466.patientInfo:=New object:C1471("firstname"; "aaa"; "lastname"; "bbb")
 		Form:C1466.patients:=ds:C1482.Patients.all()
 		
 		Form:C1466.users:=ds:C1482.Users.all()

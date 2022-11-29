@@ -1,6 +1,9 @@
 //%attributes = {}
 
 
-Form:C1466.testPrivilege1:=hasPrivilege("patient")
-Form:C1466.testPrivilege2:=hasPrivilege("createPatient")
-Form:C1466.testPrivilege3:=hasPrivilege("intern")
+$privileges:=New collection:C1472("patient"; "createPatient"; "intern"; "admin"; "doctor")
+
+
+For each ($p; $privileges)
+	Form:C1466[$p]:=hasPrivilege($p)
+End for each 

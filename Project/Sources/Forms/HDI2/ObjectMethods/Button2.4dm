@@ -7,8 +7,7 @@ End if
 Case of 
 	: (Form event code:C388=On Clicked:K2:4)
 		
-		loginAs("ann.brown@4d.com"; "a")
-		
-		//Form.info:=Form.ds.loginAs("ann.brown@4d.com"; "a")
+		authenticate("ann.brown@4d.com"; "a")
+		checkPrivileges
 		
 End case 

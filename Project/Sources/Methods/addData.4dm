@@ -25,9 +25,21 @@ $record.report:="Flu treatment (three days)"
 $status:=$record.save()
 
 $record:=ds:C1482.Records.new()
-$record.creationDate:=Add to date:C393(Current date:C33(); 0; -3; 0)
+$record.creationDate:=Add to date:C393(Current date:C33(); 0; -2; 0)
 $record.personalNotes:="Allergy investigation to do "
-$record.report:="Allergy treatment (7 days)"
+$record.report:="Allergy treatment (seven days)"
+$status:=$record.save()
+
+$record:=ds:C1482.Records.new()
+$record.creationDate:=Add to date:C393(Current date:C33(); 0; -3; 0)
+$record.personalNotes:="The patient must be met again next month"
+$record.report:="Treatment for cold(10 days)"
+$status:=$record.save()
+
+$record:=ds:C1482.Records.new()
+$record.creationDate:=Add to date:C393(Current date:C33(); 0; -4; 0)
+$record.personalNotes:="The patient must be met again in two days"
+$record.report:="Go on with the flu treatment (10 days)"
 $status:=$record.save()
 
 //Patients
