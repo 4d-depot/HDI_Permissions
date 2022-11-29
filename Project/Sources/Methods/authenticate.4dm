@@ -16,7 +16,7 @@ $headers:=buildHeaders()
 OB GET ARRAY:C1229($headers; "names"; $headerNames)
 OB GET ARRAY:C1229($headers; "values"; $headerValues)
 
-$url:="127.0.0.1:8044/rest/$catalog/loginAs"
+$url:="127.0.0.1:8044/rest/$catalog/authenticate"
 $body:=New collection:C1472($identifier; $password)
 $HTTPStatus:=HTTP Request:C1158(HTTP POST method:K71:2; $url; $body; $response; $headerNames; $headerValues; *)
 

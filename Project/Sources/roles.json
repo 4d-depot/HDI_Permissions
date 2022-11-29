@@ -19,7 +19,7 @@
 				]
 			},
 			{
-				"applyTo": "ds.loginAs",
+				"applyTo": "ds.authenticate",
 				"type": "method",
 				"promote": [
 					"readUsers"
