@@ -36,6 +36,8 @@ Case of
 		
 		Form:C1466.info:=Null:C1517
 		
+		checkPrivileges
+		
 		If (FORM Get current page:C276=3)
 			Form:C1466.roles:=_Directions[1]
 		End if 

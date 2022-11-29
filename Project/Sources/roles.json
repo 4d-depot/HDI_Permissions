@@ -29,6 +29,13 @@
 				]
 			},
 			{
+				"applyTo": "ds.authenticate2",
+				"type": "method",
+				"execute": [
+					"guest"
+				]
+			},
+			{
 				"applyTo": "ds",
 				"type": "datastore",
 				"read": [
