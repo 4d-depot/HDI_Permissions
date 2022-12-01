@@ -1,154 +1,141 @@
 {
-	"permissions": {
-		"allowed": [
-			{
-				"applyTo": "Patients",
-				"type": "dataclass",
-				"create": [
-					"createPatient"
-				],
-				"read": [
-					"doctor"
-				]
-			},
-			{
-				"applyTo": "Users",
-				"type": "dataclass",
-				"read": [
-					"readUsers"
-				]
-			},
-			{
-				"applyTo": "ds.authenticate",
-				"type": "method",
-				"promote": [
-					"readUsers"
-				],
-				"execute": [
-					"guest"
-				]
-			},
-			{
-				"applyTo": "ds.authenticate2",
-				"type": "method",
-				"execute": [
-					"guest"
-				]
-			},
-			{
-				"applyTo": "ds",
-				"type": "datastore",
-				"read": [
-					"nobody"
-				]
-			},
-			{
-				"applyTo": "Records",
-				"type": "dataclass",
-				"read": [
-					"patient",
-					"intern",
-					"admin"
-				],
-				"drop": [
-					"admin"
-				],
-				"create": [
-					"doctor"
-				]
-			},
-			{
-				"applyTo": "Records.deleteFrom",
-				"type": "method",
-				"execute": [
-					"admin"
-				]
-			},
-			{
-				"applyTo": "Records.personalNotes",
-				"type": "attribute",
-				"read": [
-					"doctor"
-				]
-			}
-		]
-	},
-	"privileges": [
-		
-		{
-			"id": "wshE1PHEwUqijcDQpMfxQY",
-			"privilege": "readUsers",
-			"includes": []
-		},
-		{
-			"id": "tkf67kjAFMgjZnxkPi14iv",
-			"privilege": "nobody",
-			"includes": []
-		},
-		{
-			"id": "9kdFZg5rE8MVKtDUu2Ncie",
-			"privilege": "createPatient",
-			"includes": []
-		},
-		{
-			"id": "bE2zXdUdNApVnLgYpTy4fF",
-			"privilege": "patient",
-			"includes": []
-		},
-		{
-			"id": "xiQUZndDVtcsMggPvLFV55",
-			"privilege": "intern",
-			"includes": []
-		},
-		{
-			"id": "4zvRYnwyuJP8QUfpnmzgWG",
-			"privilege": "admin",
-			"includes": []
-		},
-		{
-			"id": "huDwA9PdXACBgJX1vUYE3Q",
-			"privilege": "doctor",
-			"includes": [
-				"intern"
-			]
-		}
-	],
-	"roles": [
-		{
-			"id": "3zQv7uRLRAxv6TtUX4xHxN",
-			"role": "The Admin",
-			"privileges": [
-				"admin"
-			]
-		},
-		{
-			"id": "gLiEYreYPZfAkpbC3nN3zW",
-			"role": "The Patient",
-			"privileges": [
-				"patient"
-			]
-		},
-		{
-			"id": "ckNrcS4FRMSfBRkH7JPoqx",
-			"role": "The Doctor",
-			"privileges": [
-				"doctor"
-			]
-		},
-		{
-			"id": "rYTineJeH3vUy8vFd3nDDF",
-			"role": "The Intern",
-			"privileges": [
-				"intern"
-			]
-		},
-		{
-			"id": "oSaHuE3sibi68HK1AAdGPW",
-			"role": "The Secretary",
-			"privileges": [
-				"createPatient",
-				"intern"
-			]
-		}
-	]
+  "privileges": [
+    {
+      "privilege": "readUsers",
+      "includes": []
+    },
+    {
+      "privilege": "nobody",
+      "includes": []
+    },
+    {
+      "privilege": "createPatient",
+      "includes": []
+    },
+    {
+      "privilege": "patient",
+      "includes": []
+    },
+    {
+      "privilege": "intern",
+      "includes": []
+    },
+    {
+      "privilege": "admin",
+      "includes": []
+    },
+    {
+      "privilege": "doctor",
+      "includes": [
+        "intern"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "role": "The Admin",
+      "privileges": [
+        "admin"
+      ]
+    },
+    {
+      "role": "The Patient",
+      "privileges": [
+        "patient"
+      ]
+    },
+    {
+      "role": "The Doctor",
+      "privileges": [
+        "doctor"
+      ]
+    },
+    {
+      "role": "The Intern",
+      "privileges": [
+        "intern"
+      ]
+    },
+    {
+      "role": "The Secretary",
+      "privileges": [
+        "createPatient",
+        "intern"
+      ]
+    }
+  ],
+  "permissions": {
+    "allowed": [
+      {
+        "applyTo": "ds",
+        "type": "datastore",
+        "read": [
+          "nobody"
+        ]
+      },
+      {
+        "applyTo": "Patients",
+        "type": "dataclass",
+        "create": [
+          "createPatient"
+        ],
+        "read": [
+          "doctor"
+        ]
+      },
+      {
+        "applyTo": "Users",
+        "type": "dataclass",
+        "read": [
+          "readUsers"
+        ]
+      },
+      {
+        "applyTo": "Records",
+        "type": "dataclass",
+        "read": [
+          "patient",
+          "intern",
+          "admin"
+        ],
+        "drop": [
+          "admin"
+        ],
+        "create": [
+          "doctor"
+        ]
+      },
+      {
+        "applyTo": "Records.deleteFrom",
+        "type": "method",
+        "execute": [
+          "admin"
+        ]
+      },
+      {
+        "applyTo": "Records.personalNotes",
+        "type": "attribute",
+        "read": [
+          "doctor"
+        ]
+      },
+      {
+        "applyTo": "ds.authenticate",
+        "type": "method",
+        "promote": [
+          "readUsers"
+        ],
+        "execute": [
+          "guest"
+        ]
+      },
+      {
+        "applyTo": "ds.authenticate2",
+        "type": "method",
+        "execute": [
+          "guest"
+        ]
+      }
+    ]
+  }
 }

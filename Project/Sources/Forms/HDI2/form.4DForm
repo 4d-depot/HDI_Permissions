@@ -82,10 +82,10 @@
 			"objects": {
 				"information4": {
 					"type": "input",
-					"top": 143,
-					"left": 597,
+					"top": 80,
+					"left": 610,
 					"width": 400,
-					"height": 690,
+					"height": 880,
 					"sizingY": "grow",
 					"dataSource": "_Directions[5]",
 					"focusable": false,
@@ -102,8 +102,8 @@
 				},
 				"information9": {
 					"type": "input",
-					"top": 73,
-					"left": 62,
+					"top": 80,
+					"left": 50,
 					"width": 496,
 					"height": 750,
 					"sizingX": "grow",
@@ -124,9 +124,9 @@
 				"Button14": {
 					"type": "button",
 					"text": "Show on disk",
-					"top": 143,
-					"left": 1017,
-					"width": 150,
+					"top": 80,
+					"left": 1030,
+					"width": 140,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -137,10 +137,10 @@
 				"Text": {
 					"type": "text",
 					"text": "Screen shot data model",
-					"top": 739,
-					"left": 93,
+					"top": 905,
+					"left": 181,
 					"width": 376,
-					"height": 154,
+					"height": 57,
 					"fontWeight": "bold",
 					"stroke": "#dc143c",
 					"fontSize": 24
@@ -323,10 +323,10 @@
 				},
 				"information12": {
 					"type": "input",
-					"top": 275,
-					"left": 767,
+					"top": 410,
+					"left": 760,
 					"width": 400,
-					"height": 700,
+					"height": 550,
 					"sizingY": "grow",
 					"dataSource": "_Directions[6]",
 					"focusable": false,
@@ -365,20 +365,24 @@
 				},
 				"metrics9": {
 					"type": "input",
-					"left": 526,
-					"top": 620,
+					"left": 520,
+					"top": 579,
 					"width": 100,
-					"height": 20,
+					"height": 30,
 					"enterable": false,
 					"focusable": false,
 					"dataSource": "Form:C1466.patient",
-					"dataSourceTypeHint": "boolean"
+					"dataSourceTypeHint": "boolean",
+					"fill": "#b1c4dd",
+					"borderStyle": "none",
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
 				"Text28": {
 					"type": "text",
 					"text": "Extract of the roles.json file",
-					"top": 250,
-					"left": 770,
+					"top": 380,
+					"left": 760,
 					"width": 230,
 					"height": 20,
 					"fontWeight": "bold",
@@ -386,15 +390,19 @@
 				},
 				"testPrivilege3": {
 					"type": "input",
-					"left": 526,
-					"top": 643,
+					"left": 520,
+					"top": 620,
 					"width": 100,
-					"height": 20,
+					"height": 30,
 					"enterable": false,
 					"focusable": false,
 					"dataSource": "Form:C1466.createPatient",
 					"dataSourceTypeHint": "boolean",
-					"visibility": "visible"
+					"visibility": "visible",
+					"fill": "#b1c4dd",
+					"borderStyle": "none",
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
 				"Text29": {
 					"type": "text",
@@ -425,15 +433,19 @@
 				},
 				"testPrivilege4": {
 					"type": "input",
-					"left": 526,
-					"top": 668,
+					"left": 520,
+					"top": 665,
 					"width": 100,
-					"height": 20,
+					"height": 30,
 					"enterable": false,
 					"focusable": false,
 					"dataSource": "Form:C1466.intern",
 					"dataSourceTypeHint": "boolean",
-					"visibility": "visible"
+					"visibility": "visible",
+					"fill": "#b1c4dd",
+					"borderStyle": "none",
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
 				"Button21": {
 					"type": "button",
@@ -2040,6 +2052,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 2957,
+	"geometryStamp": 3066,
 	"windowSizingY": "variable"
 }

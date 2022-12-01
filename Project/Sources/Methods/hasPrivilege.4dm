@@ -1,7 +1,7 @@
 //%attributes = {}
 
 
-#DECLARE($privilege : Text)->$result : Boolean
+#DECLARE($privilege : Text)->$result : Text
 
 ARRAY TEXT:C222($headerNames; 0)
 ARRAY TEXT:C222($headerValues; 0)
