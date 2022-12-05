@@ -6,6 +6,6 @@ End if
 
 Case of 
 	: (Form event code:C388=On Clicked:K2:4)
-		authenticate("john.anderson@4d.com"; "a")
+		authenticate("intern@4d.com"; "a")
 		checkPrivileges
 End case 

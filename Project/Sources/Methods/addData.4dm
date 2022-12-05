@@ -49,34 +49,35 @@ $patientsData:=JSON Parse:C1218($text; Is collection:K8:32)
 
 $patients:=ds:C1482.Patients.fromCollection($patientsData)
 
+//Users
 $notDropped:=ds:C1482.Users.all().drop()
 
 $user:=ds:C1482.Users.new()
-$user.identifier:="ann.brown@4d.com"
+$user.identifier:="admin@4d.com"
 $user.password:=Generate password hash:C1533("a")
 $user.role:="The Admin"
 $status:=$user.save()
 
 $user:=ds:C1482.Users.new()
-$user.identifier:="mary.smith@4d.com"
+$user.identifier:="doctor@4d.com"
 $user.password:=Generate password hash:C1533("a")
 $user.role:="The Doctor"
 $status:=$user.save()
 
 $user:=ds:C1482.Users.new()
-$user.identifier:="john.anderson@4d.com"
+$user.identifier:="intern@4d.com"
 $user.password:=Generate password hash:C1533("a")
 $user.role:="The Intern"
 $status:=$user.save()
 
 $user:=ds:C1482.Users.new()
-$user.identifier:="helen.cooper@4d.com"
+$user.identifier:="patient@4d.com"
 $user.password:=Generate password hash:C1533("a")
 $user.role:="The Patient"
 $status:=$user.save()
 
 $user:=ds:C1482.Users.new()
-$user.identifier:="albert.evans@4d.com"
+$user.identifier:="secretary@4d.com"
 $user.password:=Generate password hash:C1533("a")
 $user.role:="The Secretary"
 $status:=$user.save()
