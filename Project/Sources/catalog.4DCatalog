@@ -30,9 +30,9 @@
 		<field name="report" uuid="9EF873C367C84F14BD2772B55A755764" type="10" limiting_length="255" never_null="true" id="4"/>
 		<primary_key field_name="ID" field_uuid="4D3F08AC172A4A1284A3CFEA52361548"/>
 		<table_extra>
-			<editor_table_info displayable_fields_count="8">
+			<editor_table_info displayable_fields_count="4">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="0" top="205.48783874512" width="175.93334960938" height="222.52499389648"/>
+				<coordinates left="136.60209655762" top="199.69554138184" width="152.48014831543" height="125.66854858398"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -43,9 +43,9 @@
 		<field name="password" uuid="618F820552974DA789BD04389996BE89" type="10" limiting_length="255" never_null="true" id="4"/>
 		<primary_key field_name="ID" field_uuid="2ABD97B13CAB4FD385A20B2DD79E1189"/>
 		<table_extra>
-			<editor_table_info displayable_fields_count="6">
+			<editor_table_info displayable_fields_count="4">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="405.47540283203" top="209.18844604492" width="120" height="167.33203125"/>
+				<coordinates left="0" top="196.34243774414" width="117.14868164062" height="143.09216308594"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -55,9 +55,9 @@
 		<field name="lastname" uuid="440696963ADD4AC78064247A2465FD98" type="10" limiting_length="255" never_null="true" id="3"/>
 		<primary_key field_name="ID" field_uuid="29619D579B9A454281244FB40512A108"/>
 		<table_extra>
-			<editor_table_info displayable_fields_count="6">
+			<editor_table_info displayable_fields_count="3">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="227.41320800781" top="208.74749755859" width="120" height="167.33203125"/>
+				<coordinates left="161.11511230468" top="349.59747314453" width="104.46264648438" height="104.51171875"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -66,9 +66,9 @@
 		<field name="description" uuid="3CFA731FB65F431B96FA89634334F732" type="10" limiting_length="255" never_null="true" id="2"/>
 		<primary_key field_name="ID" field_uuid="A9C9A3E906B9462EA8E149C721D507FD"/>
 		<table_extra>
-			<editor_table_info displayable_fields_count="6">
+			<editor_table_info displayable_fields_count="2">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="577" top="212" width="185" height="180.33203125"/>
+				<coordinates left="0" top="352.19546508789" width="144.37286376953" height="83.515808105469"/>
 			</editor_table_info>
 		</table_extra>
 	</table>

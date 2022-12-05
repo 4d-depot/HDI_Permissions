@@ -1,3 +1,6 @@
+
+var $picture : Picture
+
 Case of 
 		
 	: (Form event code:C388=On Load:K2:1)
@@ -9,6 +12,12 @@ Case of
 		//$connect:=New object("hostname"; "127.0.0.1:8044")
 		//Form.ds:=Open datastore($connect; "remoteDS")
 		
+		
+		$folder:=Folder:C1567("/RESOURCES/Images")
+		$path:=$folder.platformPath+"DataModel.png"
+		//$file:=Folder("/RESOURCES/Images/DataModel.png")
+		READ PICTURE FILE:C678($path; $picture)
+		Form:C1466.dataModel:=$picture
 		
 		READ WRITE:C146(*)
 		
@@ -38,17 +47,6 @@ Case of
 		
 		checkPrivileges
 		
-		If (FORM Get current page:C276=3)
-			Form:C1466.roles:=_Directions[1]
-		End if 
-		
-		If (FORM Get current page:C276=4)
-			Form:C1466.roles:=_Directions[8]
-		End if 
-		
-		If (FORM Get current page:C276=5)
-			Form:C1466.roles:=_Directions[11]
-		End if 
 		
 		manageTexts
 		

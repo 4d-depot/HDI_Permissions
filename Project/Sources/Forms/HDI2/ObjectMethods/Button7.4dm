@@ -15,6 +15,6 @@ Case of
 		
 		Form:C1466.info:=$response
 		
-		Form:C1466.records:=ds:C1482.Records.all()
+		Form:C1466.records:=ds:C1482.Records.all().orderBy("creationDate")
 		
 End case 
