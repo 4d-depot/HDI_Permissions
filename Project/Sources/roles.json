@@ -71,6 +71,9 @@
         "type": "datastore",
         "read": [
           "nobody"
+        ],
+        "execute": [
+          "nobody"
         ]
       },
       {
@@ -103,6 +106,13 @@
         ],
         "create": [
           "doctor"
+        ]
+      },
+      {
+        "applyTo": "Utilities",
+        "type": "dataclass",
+        "execute": [
+          "guest"
         ]
       },
       {

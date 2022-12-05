@@ -57,10 +57,10 @@
 			"objects": {
 				"information": {
 					"type": "input",
-					"top": 150,
-					"left": 80,
-					"width": 850,
-					"height": 1400,
+					"top": 100,
+					"left": 50,
+					"width": 1100,
+					"height": 1100,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "_Descriptions[0]",
@@ -226,7 +226,7 @@
 				},
 				"Button20": {
 					"type": "button",
-					"text": "Authenticated as The Patient",
+					"text": "Authenticate as The Patient",
 					"top": 480,
 					"left": 350,
 					"width": 240,
@@ -523,7 +523,7 @@
 				"metrics12": {
 					"type": "input",
 					"left": 40,
-					"top": 400,
+					"top": 460,
 					"width": 700,
 					"height": 200,
 					"enterable": false,
@@ -603,11 +603,36 @@
 				"Text46": {
 					"type": "text",
 					"text": "Request response",
-					"top": 380,
+					"top": 440,
 					"left": 40,
 					"width": 180,
 					"height": 20,
 					"fontWeight": "bold"
+				},
+				"Text51": {
+					"type": "text",
+					"text": "Is the session a guest one (i.e. no privileges in the session)",
+					"top": 390,
+					"left": 40,
+					"width": 500,
+					"height": 20,
+					"textAlign": "left"
+				},
+				"privilege1": {
+					"type": "input",
+					"left": 490,
+					"top": 390,
+					"width": 70,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.guest",
+					"dataSourceTypeHint": "boolean",
+					"visibility": "visible",
+					"fill": "#b1c4dd",
+					"borderStyle": "none",
+					"fontWeight": "bold",
+					"textAlign": "center"
 				}
 			}
 		},
@@ -2208,6 +2233,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5453,
+	"geometryStamp": 5514,
 	"windowSizingY": "variable"
 }
