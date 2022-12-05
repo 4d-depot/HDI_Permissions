@@ -950,7 +950,7 @@
 				},
 				"Button1": {
 					"type": "button",
-					"text": "Login as Intern",
+					"text": "Authenticate as The Intern",
 					"top": 340,
 					"left": 40,
 					"width": 200,
@@ -1022,7 +1022,7 @@
 				},
 				"Button10": {
 					"type": "button",
-					"text": "Login as Doctor",
+					"text": "Authenticate as The Doctor",
 					"top": 340,
 					"left": 330,
 					"width": 200,
@@ -1297,7 +1297,7 @@
 				},
 				"Button5": {
 					"type": "button",
-					"text": "Authenticate as Patient",
+					"text": "Authenticate as The Patient",
 					"top": 370,
 					"left": 40,
 					"width": 200,
@@ -1356,7 +1356,7 @@
 				},
 				"Button13": {
 					"type": "button",
-					"text": "Authenticate as Doctor",
+					"text": "Authenticate as The Doctor",
 					"top": 310,
 					"left": 40,
 					"width": 200,
@@ -1404,7 +1404,7 @@
 				},
 				"Button12": {
 					"type": "button",
-					"text": "Authenticate as Intern",
+					"text": "Authenticate as The Intern",
 					"top": 310,
 					"left": 350,
 					"width": 200,
@@ -1547,9 +1547,9 @@
 			"objects": {
 				"information5": {
 					"type": "input",
-					"top": 70,
+					"top": 80,
 					"left": 50,
-					"width": 900,
+					"width": 1100,
 					"height": 200,
 					"sizingY": "grow",
 					"dataSource": "_Descriptions[7]",
@@ -1567,7 +1567,7 @@
 				},
 				"Rectangle1": {
 					"type": "rectangle",
-					"top": 370,
+					"top": 400,
 					"left": 40,
 					"width": 772,
 					"height": 200,
@@ -1581,10 +1581,10 @@
 				},
 				"Button15": {
 					"type": "button",
-					"text": "Login as Secretary",
-					"top": 310,
+					"text": "Authenticate as The Secretary",
+					"top": 290,
 					"left": 40,
-					"width": 200,
+					"width": 240,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -1595,9 +1595,9 @@
 				"metrics6": {
 					"type": "input",
 					"left": 40,
-					"top": 660,
+					"top": 690,
 					"width": 440,
-					"height": 280,
+					"height": 250,
 					"enterable": false,
 					"focusable": false,
 					"dataSource": "Form:C1466.info"
@@ -1612,22 +1612,11 @@
 					"fontWeight": "bold",
 					"fontSize": 14
 				},
-				"metrics7": {
-					"type": "input",
-					"left": 820,
-					"top": 320,
-					"width": 350,
-					"height": 600,
-					"enterable": false,
-					"focusable": false,
-					"dataSource": "Form:C1466.roles",
-					"styledText": true
-				},
 				"Button17": {
 					"type": "button",
 					"text": "Create patient",
-					"top": 380,
-					"left": 60,
+					"top": 460,
+					"left": 50,
 					"width": 130,
 					"height": 20,
 					"events": [
@@ -1639,20 +1628,20 @@
 				"Input16": {
 					"type": "input",
 					"left": 40,
-					"top": 340,
+					"top": 320,
 					"width": 280,
 					"height": 20,
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "system",
-					"dataSource": "_Directions[13]",
+					"dataSource": "_Directions[18]",
 					"styledText": true
 				},
 				"Input18": {
 					"type": "input",
-					"left": 60,
-					"top": 500,
+					"left": 50,
+					"top": 490,
 					"width": 330,
 					"height": 50,
 					"enterable": false,
@@ -1665,7 +1654,7 @@
 				"Text12": {
 					"type": "text",
 					"text": "Request response",
-					"top": 640,
+					"top": 670,
 					"left": 40,
 					"width": 180,
 					"height": 22,
@@ -1674,16 +1663,16 @@
 				"Text14": {
 					"type": "text",
 					"text": "Patients",
-					"top": 390,
-					"left": 470,
+					"top": 420,
+					"left": 440,
 					"width": 100,
 					"height": 20,
 					"fontWeight": "bold"
 				},
 				"Input19": {
 					"type": "input",
-					"left": 163,
-					"top": 430,
+					"left": 120,
+					"top": 420,
 					"width": 100,
 					"height": 20,
 					"dataSource": "Form:C1466.patientInfo.firstname",
@@ -1692,16 +1681,16 @@
 				"Text17": {
 					"type": "text",
 					"text": "Firstname",
-					"top": 430,
-					"left": 43,
+					"top": 420,
+					"left": 10,
 					"width": 100,
 					"height": 20,
 					"textAlign": "right"
 				},
 				"List Box2": {
 					"type": "listbox",
-					"left": 470,
-					"top": 410,
+					"left": 440,
+					"top": 440,
 					"width": 365,
 					"height": 141,
 					"events": [
@@ -1760,8 +1749,8 @@
 				},
 				"Input15": {
 					"type": "input",
-					"left": 350,
-					"top": 430,
+					"left": 320,
+					"top": 420,
 					"width": 100,
 					"height": 20,
 					"dataSource": "Form:C1466.patientInfo.lastname",
@@ -1770,8 +1759,8 @@
 				"Text18": {
 					"type": "text",
 					"text": "Lastname",
-					"top": 430,
-					"left": 253,
+					"top": 420,
+					"left": 210,
 					"width": 100,
 					"height": 20,
 					"textAlign": "right"
@@ -1779,7 +1768,7 @@
 				"Input21": {
 					"type": "input",
 					"left": 40,
-					"top": 611,
+					"top": 640,
 					"width": 520,
 					"height": 20,
 					"enterable": false,
@@ -1792,8 +1781,8 @@
 				"Button16": {
 					"type": "button",
 					"text": "Read records",
-					"top": 583,
-					"left": 50,
+					"top": 610,
+					"left": 40,
 					"width": 130,
 					"height": 20,
 					"events": [
@@ -1802,55 +1791,120 @@
 					"method": "ObjectMethods/Button16.4dm",
 					"focusable": false
 				},
+				"information15": {
+					"type": "input",
+					"top": 270,
+					"left": 820,
+					"width": 350,
+					"height": 700,
+					"sizingY": "grow",
+					"dataSource": "_Directions[24]",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
 				"Text37": {
 					"type": "text",
-					"text": "Does the session has the privileges",
-					"top": 864,
-					"left": 68,
-					"width": 250,
+					"text": "roles.json file",
+					"top": 250,
+					"left": 820,
+					"width": 230,
 					"height": 20,
-					"textAlign": "right"
+					"fontWeight": "bold",
+					"stroke": "#6495ed"
 				},
-				"metrics14": {
+				"Text38": {
+					"type": "text",
+					"text": "Does the session has the privileges:",
+					"top": 360,
+					"left": 50,
+					"width": 230,
+					"height": 20,
+					"textAlign": "left"
+				},
+				"testPrivilege7": {
 					"type": "input",
-					"left": 589,
-					"top": 854,
-					"width": 100,
+					"left": 520,
+					"top": 360,
+					"width": 70,
 					"height": 20,
 					"enterable": false,
 					"focusable": false,
 					"dataSource": "Form:C1466.createPatient",
-					"dataSourceTypeHint": "boolean"
+					"dataSourceTypeHint": "boolean",
+					"visibility": "visible",
+					"fill": "#b1c4dd",
+					"borderStyle": "none",
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
-				"testPrivilege9": {
+				"Text49": {
+					"type": "text",
+					"text": "createPatient",
+					"top": 360,
+					"left": 420,
+					"width": 90,
+					"height": 20,
+					"textAlign": "right"
+				},
+				"Text50": {
+					"type": "text",
+					"text": "intern",
+					"top": 360,
+					"left": 260,
+					"width": 60,
+					"height": 20,
+					"textAlign": "right"
+				},
+				"testPrivilege8": {
 					"type": "input",
-					"left": 589,
-					"top": 877,
-					"width": 100,
+					"left": 330,
+					"top": 360,
+					"width": 70,
 					"height": 20,
 					"enterable": false,
 					"focusable": false,
 					"dataSource": "Form:C1466.intern",
 					"dataSourceTypeHint": "boolean",
-					"visibility": "visible"
+					"visibility": "visible",
+					"fill": "#b1c4dd",
+					"borderStyle": "none",
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
-				"Text38": {
-					"type": "text",
-					"text": "createPatient",
-					"top": 864,
-					"left": 338,
-					"width": 60,
+				"Button24": {
+					"type": "button",
+					"text": "Wrong authentication",
+					"top": 290,
+					"left": 350,
+					"width": 200,
 					"height": 20,
-					"textAlign": "right"
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button24.4dm",
+					"focusable": false
 				},
-				"Text39": {
-					"type": "text",
-					"text": "intern",
-					"top": 881,
-					"left": 333,
-					"width": 100,
+				"Input33": {
+					"type": "input",
+					"left": 350,
+					"top": 320,
+					"width": 280,
 					"height": 20,
-					"textAlign": "right"
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "system",
+					"dataSource": "_Directions[19]",
+					"styledText": true
 				}
 			}
 		},
@@ -1858,10 +1912,10 @@
 			"objects": {
 				"information7": {
 					"type": "input",
-					"top": 70,
+					"top": 80,
 					"left": 50,
-					"width": 850,
-					"height": 180,
+					"width": 1100,
+					"height": 250,
 					"sizingY": "grow",
 					"dataSource": "_Descriptions[8]",
 					"focusable": false,
@@ -1880,7 +1934,7 @@
 					"type": "text",
 					"text": "",
 					"top": 120,
-					"left": 430,
+					"left": 50,
 					"width": 210,
 					"height": 20,
 					"fontWeight": "bold",
@@ -1888,29 +1942,18 @@
 				},
 				"Text40": {
 					"type": "text",
-					"text": "Is the session a Guest one (i.e. no privileges in hte session)",
-					"top": 941,
-					"left": 59,
+					"text": "Is the session a guest one (i.e. no privileges in the session)",
+					"top": 660,
+					"left": 50,
 					"width": 500,
 					"height": 20,
-					"textAlign": "right"
-				},
-				"metrics15": {
-					"type": "input",
-					"left": 579,
-					"top": 941,
-					"width": 100,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"dataSource": "Form:C1466.guest",
-					"dataSourceTypeHint": "boolean"
+					"textAlign": "left"
 				},
 				"metrics16": {
 					"type": "input",
-					"left": 373,
-					"top": 499,
-					"width": 300,
+					"left": 380,
+					"top": 530,
+					"width": 420,
 					"height": 80,
 					"enterable": false,
 					"focusable": false,
@@ -1919,7 +1962,7 @@
 				"Input24": {
 					"type": "input",
 					"left": 50,
-					"top": 690,
+					"top": 710,
 					"width": 650,
 					"height": 240,
 					"enterable": false,
@@ -1929,23 +1972,10 @@
 					"dataSource": "_Directions[16]",
 					"styledText": true
 				},
-				"Button22": {
-					"type": "button",
-					"text": "Authenticate as a patient",
-					"top": 544,
-					"left": 50,
-					"width": 200,
-					"height": 20,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button22.4dm",
-					"focusable": false
-				},
 				"List Box4": {
 					"type": "listbox",
 					"left": 50,
-					"top": 360,
+					"top": 370,
 					"width": 635,
 					"height": 121,
 					"events": [
@@ -2001,10 +2031,39 @@
 						}
 					]
 				},
+				"privilege": {
+					"type": "input",
+					"left": 510,
+					"top": 660,
+					"width": 70,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.guest",
+					"dataSourceTypeHint": "boolean",
+					"visibility": "visible",
+					"fill": "#b1c4dd",
+					"borderStyle": "none",
+					"fontWeight": "bold",
+					"textAlign": "center"
+				},
+				"Button22": {
+					"type": "button",
+					"text": "Authenticate as The Patient",
+					"top": 500,
+					"left": 50,
+					"width": 240,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button22.4dm",
+					"focusable": false
+				},
 				"Input25": {
 					"type": "input",
 					"left": 50,
-					"top": 569,
+					"top": 530,
 					"width": 280,
 					"height": 20,
 					"enterable": false,
@@ -2014,122 +2073,46 @@
 					"dataSource": "_Directions[12]",
 					"styledText": true
 				},
-				"Input26": {
-					"type": "input",
-					"left": 50,
-					"top": 670,
-					"width": 280,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "none",
-					"dataSource": "_Directions[17]",
-					"styledText": true
-				},
-				"Text41": {
+				"Text39": {
 					"type": "text",
-					"text": "Does the session has the privileges",
+					"text": "Does the session has the privileges:",
 					"top": 630,
-					"left": 5,
-					"width": 250,
+					"left": 50,
+					"width": 230,
 					"height": 20,
-					"textAlign": "right"
+					"textAlign": "left"
 				},
-				"metrics17": {
-					"type": "input",
-					"left": 526,
-					"top": 620,
-					"width": 100,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"dataSource": "Form:C1466.patient",
-					"dataSourceTypeHint": "boolean"
-				},
-				"testPrivilege10": {
-					"type": "input",
-					"left": 526,
-					"top": 643,
-					"width": 100,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"dataSource": "Form:C1466.createPatient",
-					"dataSourceTypeHint": "boolean",
-					"visibility": "visible"
-				},
-				"Text42": {
+				"Text43": {
 					"type": "text",
 					"text": "patient",
 					"top": 630,
-					"left": 275,
+					"left": 440,
 					"width": 60,
 					"height": 20,
 					"textAlign": "right"
 				},
-				"Text43": {
-					"type": "text",
-					"text": "createPatient",
-					"top": 647,
-					"left": 270,
-					"width": 100,
-					"height": 20,
-					"textAlign": "right"
-				},
-				"Text44": {
-					"type": "text",
-					"text": "intern",
-					"top": 665,
-					"left": 270,
-					"width": 100,
-					"height": 20,
-					"textAlign": "right"
-				},
-				"testPrivilege11": {
+				"testPrivilege10": {
 					"type": "input",
-					"left": 526,
-					"top": 668,
-					"width": 100,
+					"left": 510,
+					"top": 630,
+					"width": 70,
 					"height": 20,
 					"enterable": false,
 					"focusable": false,
-					"dataSource": "Form:C1466.intern",
+					"dataSource": "Form:C1466.patient",
 					"dataSourceTypeHint": "boolean",
-					"visibility": "visible"
-				},
-				"Input29": {
-					"type": "input",
-					"left": 693,
-					"top": 676,
-					"width": 650,
-					"height": 240,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "system",
-					"dataSource": "_Directions[20]",
-					"styledText": true
-				},
-				"Input30": {
-					"type": "input",
-					"left": 693,
-					"top": 656,
-					"width": 280,
-					"height": 20,
-					"enterable": false,
-					"focusable": false,
-					"fill": "transparent",
+					"visibility": "visible",
+					"fill": "#b1c4dd",
 					"borderStyle": "none",
-					"dataSource": "_Directions[22]",
-					"styledText": true
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
 				"Button23": {
 					"type": "button",
-					"text": "Authenticate as a patient",
-					"top": 534,
-					"left": 693,
-					"width": 200,
+					"text": "Authenticate (2) as The Patient",
+					"top": 570,
+					"left": 50,
+					"width": 240,
 					"height": 20,
 					"events": [
 						"onClick"
@@ -2137,10 +2120,10 @@
 					"method": "ObjectMethods/Button23.4dm",
 					"focusable": false
 				},
-				"Input31": {
+				"Input26": {
 					"type": "input",
-					"left": 693,
-					"top": 559,
+					"left": 50,
+					"top": 600,
 					"width": 280,
 					"height": 20,
 					"enterable": false,
@@ -2148,6 +2131,67 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[21]",
+					"styledText": true
+				},
+				"Text41": {
+					"type": "text",
+					"text": "Request response",
+					"top": 510,
+					"left": 380,
+					"width": 180,
+					"height": 22,
+					"fontWeight": "bold"
+				},
+				"information16": {
+					"type": "input",
+					"top": 370,
+					"left": 820,
+					"width": 350,
+					"height": 600,
+					"sizingY": "grow",
+					"dataSource": "_Directions[20]",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text42": {
+					"type": "text",
+					"text": "roles.json file",
+					"top": 350,
+					"left": 820,
+					"width": 230,
+					"height": 20,
+					"fontWeight": "bold",
+					"stroke": "#6495ed"
+				},
+				"Text44": {
+					"type": "text",
+					"text": "Users",
+					"top": 350,
+					"left": 50,
+					"width": 100,
+					"height": 20,
+					"fontWeight": "bold"
+				},
+				"Input29": {
+					"type": "input",
+					"left": 50,
+					"top": 690,
+					"width": 500,
+					"height": 20,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"dataSource": "_Directions[22]",
 					"styledText": true
 				}
 			}
@@ -2164,6 +2208,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 4520,
+	"geometryStamp": 5453,
 	"windowSizingY": "variable"
 }
