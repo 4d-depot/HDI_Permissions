@@ -43,6 +43,10 @@ $record.report:="Go on with the flu treatment (10 days)"
 $status:=$record.save()
 
 //Patients
+$notDropped:=ds:C1482.Patients.all().drop()
+SET DATABASE PARAMETER:C642([Patients:4]; Table sequence number:K37:31; 0)
+
+
 $text:=Folder:C1567(fk resources folder:K87:11).file("Patients.json").getText("UTF-8")
 $text:=Replace string:C233($text; "\r"; "")/* for windows */
 $patientsData:=JSON Parse:C1218($text; Is collection:K8:32)

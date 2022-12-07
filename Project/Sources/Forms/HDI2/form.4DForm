@@ -1940,7 +1940,7 @@
 					"top": 80,
 					"left": 50,
 					"width": 1100,
-					"height": 250,
+					"height": 260,
 					"sizingY": "grow",
 					"dataSource": "_Descriptions[8]",
 					"focusable": false,
@@ -1987,9 +1987,9 @@
 				"Input24": {
 					"type": "input",
 					"left": 50,
-					"top": 710,
+					"top": 720,
 					"width": 650,
-					"height": 240,
+					"height": 230,
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
@@ -2209,7 +2209,7 @@
 				"Input29": {
 					"type": "input",
 					"left": 50,
-					"top": 690,
+					"top": 700,
 					"width": 500,
 					"height": 20,
 					"enterable": false,
@@ -2233,6 +2233,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5514,
+	"geometryStamp": 5517,
 	"windowSizingY": "variable"
 }
