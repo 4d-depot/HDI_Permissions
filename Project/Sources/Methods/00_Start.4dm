@@ -28,12 +28,12 @@ Case of
 		
 		$options:=New object:C1471
 		
-		$options.title:="get started with getting the metrics for unreleased data"+$cr
+		$options.title:="get started with setting up permissions to access data"+$cr
 		
 		$options.blog:="blog.4d.com"
-		$options.info:="Get metrics for unreleased data"  //ex : "4D View Pro feature"
+		$options.info:="ORDA permissions to access data"  //ex : "4D View Pro feature"
 		
-		$options.minimumVersion:="1950"  // 1660 means 16R6   1601 means 16.1 (do not use !)
+		$options.minimumVersion:="1980"  // 1660 means 16R6   1601 means 16.1 (do not use !)
 		
 		// $options.license:=4D View license  // IF ANY NEEDED
 		
