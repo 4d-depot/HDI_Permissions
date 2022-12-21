@@ -11,7 +11,7 @@ Case of
 		//Form.info:=Form.ds.Records.deleteFrom(Form.date)
 		
 		$body:=New collection:C1472(String:C10(Form:C1466.date))
-		$response:=RESTRequest("Records/deleteFrom"; HTTP POST method:K71:2; $body)
+		$response:=RESTRequest("Records/deleteOldRecords"; HTTP POST method:K71:2; $body)
 		
 		Form:C1466.info:=$response
 		

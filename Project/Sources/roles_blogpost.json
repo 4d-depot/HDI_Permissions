@@ -1,47 +1,9 @@
 {
-  "privileges": [
-    {
-      "privilege": "readUsers",
-      "includes": []
-    },
-    {
-      "privilege": "nobody",
-      "includes": []
-    },
-    {
-      "privilege": "createPatient",
-      "includes": []
-    },
-    {
-      "privilege": "patient",
-      "includes": []
-    },
-    {
-      "privilege": "intern",
-      "includes": []
-    },
-    {
-      "privilege": "admin",
-      "includes": []
-    },
-    {
-      "privilege": "doctor",
-      "includes": [
-        "intern"
-      ]
-    }
-  ],
-  "roles": [
-    {
+ "roles": [
+   {
       "role": "The Admin",
       "privileges": [
         "admin"
-      ]
-    },
-    {
-      "role": "The Patient",
-      "privileges": [
-        "patient"
       ]
     },
     {
@@ -63,14 +25,42 @@
         "intern"
       ]
     }
+ ],
+
+  "privileges": [
+    {
+      "privilege": "admin"
+    },
+    {
+      "privilege": "intern"
+    },
+    {
+      "privilege": "doctor",
+      "includes": [
+        "intern"
+      ]
+    },
+    {
+      "privilege": "hr"
+    },
+    {
+      "privilege": "nobody"
+    },
+    {
+      "privilege": "createPatient"
+    }
   ],
+
   "permissions": {
     "allowed": [
       {
         "applyTo": "ds",
         "type": "datastore",
-        "read": [
-          "nobody"
+        "drop": [
+          "admin"
+        ],
+        "create": [
+          "admin"
         ],
         "execute": [
           "nobody"
@@ -79,46 +69,23 @@
       {
         "applyTo": "Patients",
         "type": "dataclass",
-        "create": [
-          "createPatient"
-        ],
         "read": [
           "doctor"
-        ]
+        ],
+        "create": ["createPatient"]
       },
       {
         "applyTo": "Users",
         "type": "dataclass",
         "read": [
-          "readUsers"
+          "hr"
         ]
       },
       {
         "applyTo": "Records",
         "type": "dataclass",
         "read": [
-          "patient",
           "intern",
-          "admin"
-        ],
-        "drop": [
-          "admin"
-        ],
-        "create": [
-          "doctor"
-        ]
-      },
-      {
-        "applyTo": "Utilities",
-        "type": "dataclass",
-        "execute": [
-          "guest"
-        ]
-      },
-      {
-        "applyTo": "Records.deleteOldRecords",
-        "type": "method",
-        "execute": [
           "admin"
         ]
       },
@@ -130,17 +97,24 @@
         ]
       },
       {
+        "applyTo": "Records.deleteOldRecords",
+        "type": "method",
+        "execute": [
+          "admin"
+        ]
+      },
+      {
         "applyTo": "ds.authenticate",
         "type": "method",
         "promote": [
-          "readUsers"
+          "hr"
         ],
         "execute": [
           "guest"
         ]
       },
       {
-        "applyTo": "ds.authenticate2",
+        "applyTo": "Utilities.hasPrivilege",
         "type": "method",
         "execute": [
           "guest"

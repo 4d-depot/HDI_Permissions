@@ -1,7 +1,7 @@
 Class extends DataClass
 
 
-exposed Function deleteFrom($date : Text)->$result : Text
+exposed Function deleteOldRecords($date : Text)->$result : Text
 	
 	$toDelete:=This:C1470.query("creationDate <= :1"; Date:C102($date))
 	
