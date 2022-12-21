@@ -492,7 +492,7 @@
 					"top": 80,
 					"left": 50,
 					"width": 1100,
-					"height": 180,
+					"height": 220,
 					"sizingY": "grow",
 					"dataSource": "_Descriptions[3]",
 					"focusable": false,
@@ -2233,6 +2233,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5517,
+	"geometryStamp": 5518,
 	"windowSizingY": "variable"
 }

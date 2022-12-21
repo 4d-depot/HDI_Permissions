@@ -30,9 +30,9 @@
 		<field name="report" uuid="9EF873C367C84F14BD2772B55A755764" type="10" limiting_length="255" never_null="true" id="4"/>
 		<primary_key field_name="ID" field_uuid="4D3F08AC172A4A1284A3CFEA52361548"/>
 		<table_extra>
-			<editor_table_info displayable_fields_count="4">
+			<editor_table_info displayable_fields_count="5">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="136.60209655762" top="199.69554138184" width="152.48014831543" height="125.66854858398"/>
+				<coordinates left="136.60209655762" top="199.69554138184" width="165.41416931152" height="153.0708618164"/>
 			</editor_table_info>
 		</table_extra>
 	</table>

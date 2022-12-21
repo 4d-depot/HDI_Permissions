@@ -3,11 +3,13 @@ Class extends DataStoreImplementation
 
 exposed Function authenticate($identifier : Text; $password : Text) : Text
 	
+	var $users : cs:C1710.UsersSelection
 	var $user : cs:C1710.UsersEntity
 	
 	Session:C1714.clearPrivileges()
 	
-	$user:=ds:C1482.Users.query("identifier = :1"; $identifier).first()
+	$users:=ds:C1482.Users.all()
+	$user:=$users.query("identifier = :1"; $identifier).first()
 	
 	If ($user#Null:C1517)
 		If (Verify password hash:C1534($password; $user.password))
@@ -32,10 +34,11 @@ exposed Function authenticate2($identifier : Text; $password : Text)->$result : 
 	
 	ON ERR CALL:C155("errorMethod")
 	lastError:=0
-	$users:=ds:C1482.Users.query("identifier = :1"; $identifier)
+	$users:=ds:C1482.Users.all()
 	ON ERR CALL:C155("")
 	
 	If ($users#Null:C1517)
+		$users:=$users.query("identifier = :1"; $identifier)
 		$user:=$users.first()
 		If ($user#Null:C1517)
 			If (Verify password hash:C1534($password; $user.password))
