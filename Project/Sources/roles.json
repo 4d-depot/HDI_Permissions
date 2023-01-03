@@ -5,7 +5,7 @@
       "includes": []
     },
     {
-      "privilege": "nobody",
+      "privilege": "none",
       "includes": []
     },
     {
@@ -13,21 +13,17 @@
       "includes": []
     },
     {
-      "privilege": "patient",
+      "privilege": "readRecords",
       "includes": []
     },
     {
-      "privilege": "intern",
+      "privilege": "administrate",
       "includes": []
     },
     {
-      "privilege": "admin",
-      "includes": []
-    },
-    {
-      "privilege": "doctor",
+      "privilege": "medicalAction",
       "includes": [
-        "intern"
+        "readRecords"
       ]
     }
   ],
@@ -35,32 +31,32 @@
     {
       "role": "The Admin",
       "privileges": [
-        "admin"
+        "administrate"
       ]
     },
     {
       "role": "The Patient",
       "privileges": [
-        "patient"
+        "readRecords"
       ]
     },
     {
       "role": "The Doctor",
       "privileges": [
-        "doctor"
+        "medicalAction"
       ]
     },
     {
       "role": "The Intern",
       "privileges": [
-        "intern"
+        "readRecords"
       ]
     },
     {
       "role": "The Secretary",
       "privileges": [
         "createPatient",
-        "intern"
+        "readRecords"
       ]
     }
   ],
@@ -70,10 +66,10 @@
         "applyTo": "ds",
         "type": "datastore",
         "read": [
-          "nobody"
+          "none"
         ],
         "execute": [
-          "nobody"
+          "none"
         ]
       },
       {
@@ -83,7 +79,7 @@
           "createPatient"
         ],
         "read": [
-          "doctor"
+          "medicalAction"
         ]
       },
       {
@@ -97,15 +93,14 @@
         "applyTo": "Records",
         "type": "dataclass",
         "read": [
-          "patient",
-          "intern",
-          "admin"
+          "readRecords",
+          "administrate"
         ],
         "drop": [
-          "admin"
+          "administrate"
         ],
         "create": [
-          "doctor"
+          "medicalAction"
         ]
       },
       {
@@ -119,14 +114,14 @@
         "applyTo": "Records.deleteOldRecords",
         "type": "method",
         "execute": [
-          "admin"
+          "administrate"
         ]
       },
       {
         "applyTo": "Records.personalNotes",
         "type": "attribute",
         "read": [
-          "doctor"
+          "medicalAction"
         ]
       },
       {

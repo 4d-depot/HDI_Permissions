@@ -26,7 +26,6 @@
       ]
     }
  ],
-
   "privileges": [
     {
       "privilege": "admin"
@@ -50,7 +49,6 @@
       "privilege": "createPatient"
     }
   ],
-
   "permissions": {
     "allowed": [
       {
@@ -72,7 +70,9 @@
         "read": [
           "doctor"
         ],
-        "create": ["createPatient"]
+        "create": [
+          "createPatient"
+        ]
       },
       {
         "applyTo": "Users",
@@ -97,7 +97,7 @@
         ]
       },
       {
-        "applyTo": "Records.deleteOldRecords",
+        "applyTo": "Records.deleteFrom",
         "type": "method",
         "execute": [
           "admin"
@@ -109,13 +109,6 @@
         "promote": [
           "hr"
         ],
-        "execute": [
-          "guest"
-        ]
-      },
-      {
-        "applyTo": "Utilities.hasPrivilege",
-        "type": "method",
         "execute": [
           "guest"
         ]

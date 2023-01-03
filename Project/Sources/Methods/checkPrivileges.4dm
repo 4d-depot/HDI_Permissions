@@ -1,7 +1,7 @@
 //%attributes = {}
 
 
-$privileges:=New collection:C1472("patient"; "createPatient"; "intern"; "admin"; "doctor")
+$privileges:=New collection:C1472("createPatient"; "readRecords"; "administrate"; "medicalAction")
 
 
 For each ($p; $privileges)
