@@ -3,47 +3,47 @@
    {
       "role": "The Admin",
       "privileges": [
-        "admin"
+        "administrate"
       ]
     },
     {
       "role": "The Doctor",
       "privileges": [
-        "doctor"
+        "medicalAction"
       ]
     },
     {
       "role": "The Intern",
       "privileges": [
-        "intern"
+        "readRecords"
       ]
     },
     {
       "role": "The Secretary",
       "privileges": [
         "createPatient",
-        "intern"
+        "readRecords"
       ]
     }
  ],
   "privileges": [
     {
-      "privilege": "admin"
+      "privilege": "administrate"
     },
     {
-      "privilege": "intern"
+      "privilege": "readRecords"
     },
     {
-      "privilege": "doctor",
+      "privilege": "medicalAction",
       "includes": [
-        "intern"
+        "readRecords"
       ]
     },
     {
       "privilege": "hr"
     },
     {
-      "privilege": "nobody"
+      "privilege": "none"
     },
     {
       "privilege": "createPatient"
@@ -55,20 +55,20 @@
         "applyTo": "ds",
         "type": "datastore",
         "drop": [
-          "admin"
+          "administrate"
         ],
         "create": [
-          "admin"
+          "administrate"
         ],
         "execute": [
-          "nobody"
+          "none"
         ]
       },
       {
         "applyTo": "Patients",
         "type": "dataclass",
         "read": [
-          "doctor"
+          "medicalAction"
         ],
         "create": [
           "createPatient"
@@ -85,22 +85,22 @@
         "applyTo": "Records",
         "type": "dataclass",
         "read": [
-          "intern",
-          "admin"
+          "readRecords",
+          "administrate"
         ]
       },
       {
         "applyTo": "Records.personalNotes",
         "type": "attribute",
         "read": [
-          "doctor"
+          "medicalAction"
         ]
       },
       {
-        "applyTo": "Records.deleteFrom",
+        "applyTo": "Records.deleteOldRecords",
         "type": "method",
         "execute": [
-          "admin"
+          "administrate"
         ]
       },
       {
