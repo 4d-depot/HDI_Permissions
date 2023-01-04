@@ -388,7 +388,7 @@
 				},
 				"testPrivilege3": {
 					"type": "input",
-					"left": 700,
+					"left": 620,
 					"top": 650,
 					"width": 70,
 					"height": 20,
@@ -406,7 +406,7 @@
 					"type": "text",
 					"text": "createPatient",
 					"top": 650,
-					"left": 600,
+					"left": 520,
 					"width": 90,
 					"height": 20,
 					"textAlign": "right"
@@ -415,14 +415,14 @@
 					"type": "text",
 					"text": "readRecords",
 					"top": 650,
-					"left": 400,
+					"left": 320,
 					"width": 100,
 					"height": 20,
 					"textAlign": "right"
 				},
 				"testPrivilege4": {
 					"type": "input",
-					"left": 510,
+					"left": 430,
 					"top": 650,
 					"width": 70,
 					"height": 20,
@@ -552,7 +552,7 @@
 				"information6": {
 					"type": "input",
 					"top": 310,
-					"left": 770,
+					"left": 760,
 					"width": 400,
 					"height": 650,
 					"sizingY": "grow",
@@ -574,7 +574,7 @@
 					"type": "text",
 					"text": "roles.json file",
 					"top": 290,
-					"left": 770,
+					"left": 760,
 					"width": 230,
 					"height": 20,
 					"fontWeight": "bold",
@@ -830,8 +830,8 @@
 				"information10": {
 					"type": "input",
 					"top": 310,
-					"left": 820,
-					"width": 350,
+					"left": 800,
+					"width": 360,
 					"height": 650,
 					"sizingY": "grow",
 					"dataSource": "_Directions[8]",
@@ -852,7 +852,7 @@
 					"type": "text",
 					"text": "roles.json file",
 					"top": 290,
-					"left": 820,
+					"left": 800,
 					"width": 230,
 					"height": 20,
 					"fontWeight": "bold",
@@ -2168,6 +2168,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5747,
+	"geometryStamp": 5781,
 	"windowSizingY": "variable"
 }
