@@ -1,5 +1,8 @@
 
 
+var $folder : 4D:C1709.Folder
+var $path : Text
+
 If (btnTrace)
 	TRACE:C157
 End if 
@@ -10,6 +13,5 @@ Case of
 		$folder:=Folder:C1567("/PROJECT/Sources")
 		$path:=$folder.platformPath+"roles.json"
 		SHOW ON DISK:C922($path)
-		
 		
 End case 

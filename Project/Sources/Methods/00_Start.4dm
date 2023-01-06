@@ -1,8 +1,10 @@
 //%attributes = {}
-C_LONGINT:C283($1)
-C_LONGINT:C283($ps; mainWindow)
-C_OBJECT:C1216($options)
-C_TEXT:C284($cr)
+
+
+var $options : Object
+var $cr : Text
+
+var $1; $win; $ps; mainWindow : Integer
 
 Case of 
 	: (Count parameters:C259=0)

@@ -4,6 +4,8 @@
 var $responseObj : Object
 var $headers : Object
 var $body : Collection
+var $httpStatusCode : Integer
+
 
 ARRAY TEXT:C222($headerNames; 0)
 ARRAY TEXT:C222($headerValues; 0)

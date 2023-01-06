@@ -1,46 +1,28 @@
 //%attributes = {}
 
 
-var $record : cs:C1710.RecordsEntity
-var $notDropped : cs:C1710.RecordsSelection
+var $records : cs:C1710.RecordsSelection
+var $patients : cs:C1710.PatientsSelection
+var $user : cs:C1710.UsersEntity
+
+var $notDropped : 4D:C1709.EntitySelection
+
+var $recordsData; $patientsData : Collection
 
 var $status : Object
 
+var $text : Text
 
+//Records
 $notDropped:=ds:C1482.Records.all().drop()
 SET DATABASE PARAMETER:C642([Records:2]; Table sequence number:K37:31; 0)
 
+$text:=Folder:C1567(fk resources folder:K87:11).file("Records.json").getText("UTF-8")
+$text:=Replace string:C233($text; "\r"; "")/* for windows */
+$recordsData:=JSON Parse:C1218($text; Is collection:K8:32)
 
-$record:=ds:C1482.Records.new()
-$record.creationDate:=Current date:C33()
-$record.personalNotes:="The patient has recovered"
-$record.report:="Nothing wrong"
-$status:=$record.save()
+$records:=ds:C1482.Records.fromCollection($recordsData)
 
-
-$record:=ds:C1482.Records.new()
-$record.creationDate:=Add to date:C393(Current date:C33(); 0; -1; 0)
-$record.personalNotes:="The patient must be met again next week"
-$record.report:="Flu treatment (three days)"
-$status:=$record.save()
-
-$record:=ds:C1482.Records.new()
-$record.creationDate:=Add to date:C393(Current date:C33(); 0; -2; 0)
-$record.personalNotes:="Allergy investigation to do "
-$record.report:="Allergy treatment (seven days)"
-$status:=$record.save()
-
-$record:=ds:C1482.Records.new()
-$record.creationDate:=Add to date:C393(Current date:C33(); 0; -3; 0)
-$record.personalNotes:="The patient must be met again next month"
-$record.report:="Treatment for cold(10 days)"
-$status:=$record.save()
-
-$record:=ds:C1482.Records.new()
-$record.creationDate:=Add to date:C393(Current date:C33(); 0; -4; 0)
-$record.personalNotes:="The patient must be met again in two days"
-$record.report:="Go on with the flu treatment (10 days)"
-$status:=$record.save()
 
 //Patients
 $notDropped:=ds:C1482.Patients.all().drop()

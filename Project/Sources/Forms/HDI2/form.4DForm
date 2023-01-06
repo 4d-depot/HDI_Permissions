@@ -61,8 +61,8 @@
 					"left": 50,
 					"width": 1100,
 					"height": 1100,
-					"sizingX": "grow",
-					"sizingY": "grow",
+					"sizingX": "fixed",
+					"sizingY": "fixed",
 					"dataSource": "_Descriptions[0]",
 					"focusable": false,
 					"fill": "transparent",
@@ -83,7 +83,9 @@
 					"width": 313,
 					"height": 280,
 					"picture": "Images/Screenshot 2022-12-05 at 11.31.03.png",
-					"pictureFormat": "scaled"
+					"pictureFormat": "scaled",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
 				"Input32": {
 					"type": "input",
@@ -95,7 +97,9 @@
 					"dataSource": "Form:C1466.dataModel",
 					"pictureFormat": "scaled",
 					"enterable": false,
-					"focusable": false
+					"focusable": false,
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				}
 			}
 		},
@@ -2168,6 +2172,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5781,
+	"geometryStamp": 5787,
 	"windowSizingY": "variable"
 }

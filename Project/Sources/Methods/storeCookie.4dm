@@ -4,7 +4,9 @@
 
 ARRAY TEXT:C222($headerNames; 0)
 ARRAY TEXT:C222($headerValues; 0)
-//C_OBJECT($0; $result)
+
+var $indexCookie; $start; $end : Integer
+var $cookie : Text
 
 
 OB GET ARRAY:C1229($headers; "names"; $headerNames)

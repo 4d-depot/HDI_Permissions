@@ -1,6 +1,9 @@
 //%attributes = {}
 
 
+var $privileges : Collection
+var $p : Text
+
 $privileges:=New collection:C1472("createPatient"; "readRecords"; "administrate"; "medicalAction")
 
 

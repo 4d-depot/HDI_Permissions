@@ -1,0 +1,11 @@
+//%attributes = {"invisible":true}
+C_BOOLEAN:C305(btnTrace)
+C_COLLECTION:C1488(Infos)
+C_LONGINT:C283(lastError)
+C_TEXT:C284(lastErrorMessage)
+C_LONGINT:C283(mainWindow)
+C_OBJECT:C1216(objTabs)
+C_COLLECTION:C1488(_Descriptions)
+C_COLLECTION:C1488(_Descriptions_0)
+C_COLLECTION:C1488(_Directions)
+C_COLLECTION:C1488(_Directions_0)
