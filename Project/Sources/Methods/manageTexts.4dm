@@ -1,8 +1,6 @@
 //%attributes = {}
 
 
-var $i; $n : Integer
-
 
 var _Descriptions : Collection
 var _Directions : Collection

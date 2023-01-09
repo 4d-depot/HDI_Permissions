@@ -10,7 +10,7 @@ var $HTTPStatus : Integer
 var $url : Text
 var $response : Object
 var $headers : Object
-var $body : Collection
+
 
 $headers:=buildHeaders()
 OB GET ARRAY:C1229($headers; "names"; $headerNames)

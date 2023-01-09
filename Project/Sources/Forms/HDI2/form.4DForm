@@ -1,8 +1,8 @@
 {
 	"destination": "detailScreen",
-	"windowMinWidth": 800,
+	"windowMinWidth": 1280,
 	"windowMaxWidth": 32000,
-	"windowMinHeight": 540,
+	"windowMinHeight": 1024,
 	"windowMaxHeight": 32000,
 	"width": 1200,
 	"height": 1000,
@@ -99,7 +99,7 @@
 					"enterable": false,
 					"focusable": false,
 					"sizingX": "fixed",
-					"sizingY": "fixed"
+					"sizingY": "grow"
 				}
 			}
 		},
@@ -132,8 +132,8 @@
 					"left": 50,
 					"width": 496,
 					"height": 750,
-					"sizingX": "grow",
-					"sizingY": "grow",
+					"sizingX": "fixed",
+					"sizingY": "fixed",
 					"dataSource": "_Descriptions[1]",
 					"focusable": false,
 					"fill": "transparent",
@@ -170,7 +170,7 @@
 					"left": 50,
 					"width": 850,
 					"height": 250,
-					"sizingY": "grow",
+					"sizingY": "fixed",
 					"dataSource": "_Descriptions[2]",
 					"focusable": false,
 					"fill": "transparent",
@@ -228,7 +228,8 @@
 					"borderStyle": "system",
 					"dataSource": "_Directions[16]",
 					"styledText": true,
-					"scrollbarVertical": "visible"
+					"scrollbarVertical": "visible",
+					"sizingY": "grow"
 				},
 				"Button20": {
 					"type": "button",
@@ -476,7 +477,7 @@
 					"left": 50,
 					"width": 1100,
 					"height": 220,
-					"sizingY": "grow",
+					"sizingY": "fixed",
 					"dataSource": "_Descriptions[3]",
 					"focusable": false,
 					"fill": "transparent",
@@ -501,7 +502,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[14]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"metrics12": {
 					"type": "input",
@@ -511,7 +513,8 @@
 					"height": 200,
 					"enterable": false,
 					"focusable": false,
-					"dataSource": "Form:C1466.info"
+					"dataSource": "Form:C1466.info",
+					"sizingY": "grow"
 				},
 				"Text20": {
 					"type": "text",
@@ -521,7 +524,8 @@
 					"width": 210,
 					"height": 20,
 					"fontWeight": "bold",
-					"fontSize": 14
+					"fontSize": 14,
+					"sizingY": "fixed"
 				},
 				"Button18": {
 					"type": "button",
@@ -534,7 +538,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button18.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"Text26": {
 					"type": "text",
@@ -543,7 +548,8 @@
 					"left": 40,
 					"width": 180,
 					"height": 20,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"sizingY": "fixed"
 				},
 				"Text27": {
 					"type": "text",
@@ -551,7 +557,8 @@
 					"top": 270,
 					"left": 40,
 					"width": 350,
-					"height": 20
+					"height": 20,
+					"sizingY": "fixed"
 				},
 				"information6": {
 					"type": "input",
@@ -582,7 +589,8 @@
 					"width": 230,
 					"height": 20,
 					"fontWeight": "bold",
-					"stroke": "#6495ed"
+					"stroke": "#6495ed",
+					"sizingY": "fixed"
 				},
 				"Text46": {
 					"type": "text",
@@ -591,7 +599,8 @@
 					"left": 40,
 					"width": 180,
 					"height": 20,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"sizingY": "fixed"
 				},
 				"Text51": {
 					"type": "text",
@@ -600,7 +609,8 @@
 					"left": 40,
 					"width": 500,
 					"height": 20,
-					"textAlign": "left"
+					"textAlign": "left",
+					"sizingY": "fixed"
 				},
 				"privilege1": {
 					"type": "input",
@@ -616,7 +626,8 @@
 					"fill": "#b1c4dd",
 					"borderStyle": "none",
 					"fontWeight": "bold",
-					"textAlign": "center"
+					"textAlign": "center",
+					"sizingY": "fixed"
 				}
 			}
 		},
@@ -657,7 +668,8 @@
 					"height": 370,
 					"enterable": false,
 					"focusable": false,
-					"dataSource": "Form:C1466.info"
+					"dataSource": "Form:C1466.info",
+					"sizingY": "grow"
 				},
 				"Button7": {
 					"type": "button",
@@ -717,6 +729,7 @@
 					"headerHeight": "21px",
 					"focusable": false,
 					"scrollbarHorizontal": "hidden",
+					"sizingY": "grow",
 					"columns": [
 						{
 							"header": {
@@ -992,7 +1005,8 @@
 					"height": 250,
 					"enterable": false,
 					"focusable": false,
-					"dataSource": "Form:C1466.info"
+					"dataSource": "Form:C1466.info",
+					"sizingY": "grow"
 				},
 				"Text1": {
 					"type": "text",
@@ -1292,7 +1306,7 @@
 					"left": 50,
 					"width": 1100,
 					"height": 180,
-					"sizingY": "grow",
+					"sizingY": "fixed",
 					"dataSource": "_Descriptions[6]",
 					"focusable": false,
 					"fill": "transparent",
@@ -1317,7 +1331,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[9]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"metrics2": {
 					"type": "input",
@@ -1327,7 +1342,8 @@
 					"height": 370,
 					"enterable": false,
 					"focusable": false,
-					"dataSource": "Form:C1466.info"
+					"dataSource": "Form:C1466.info",
+					"sizingY": "grow"
 				},
 				"Text2": {
 					"type": "text",
@@ -1337,7 +1353,8 @@
 					"width": 210,
 					"height": 20,
 					"fontWeight": "bold",
-					"fontSize": 14
+					"fontSize": 14,
+					"sizingY": "fixed"
 				},
 				"Button6": {
 					"type": "button",
@@ -1350,7 +1367,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button6.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"Button13": {
 					"type": "button",
@@ -1363,7 +1381,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button13.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"Input14": {
 					"type": "input",
@@ -1376,7 +1395,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[3]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"Text7": {
 					"type": "text",
@@ -1385,7 +1405,8 @@
 					"left": 40,
 					"width": 180,
 					"height": 20,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"sizingY": "fixed"
 				},
 				"Button12": {
 					"type": "button",
@@ -1398,7 +1419,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button12.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"Input13": {
 					"type": "input",
@@ -1411,7 +1433,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[13]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"metrics10": {
 					"type": "input",
@@ -1426,7 +1449,8 @@
 					"fill": "#b1c4dd",
 					"borderStyle": "none",
 					"fontWeight": "bold",
-					"textAlign": "center"
+					"textAlign": "center",
+					"sizingY": "fixed"
 				},
 				"Text34": {
 					"type": "text",
@@ -1435,7 +1459,8 @@
 					"left": 470,
 					"width": 100,
 					"height": 20,
-					"textAlign": "right"
+					"textAlign": "right",
+					"sizingY": "fixed"
 				},
 				"Text35": {
 					"type": "text",
@@ -1444,7 +1469,8 @@
 					"left": 280,
 					"width": 100,
 					"height": 20,
-					"textAlign": "right"
+					"textAlign": "right",
+					"sizingY": "fixed"
 				},
 				"testPrivilege5": {
 					"type": "input",
@@ -1460,7 +1486,8 @@
 					"fill": "#b1c4dd",
 					"borderStyle": "none",
 					"fontWeight": "bold",
-					"textAlign": "center"
+					"textAlign": "center",
+					"sizingY": "fixed"
 				},
 				"information14": {
 					"type": "input",
@@ -1491,7 +1518,8 @@
 					"width": 230,
 					"height": 20,
 					"fontWeight": "bold",
-					"stroke": "#6495ed"
+					"stroke": "#6495ed",
+					"sizingY": "fixed"
 				},
 				"Text25": {
 					"type": "text",
@@ -1500,7 +1528,8 @@
 					"left": 50,
 					"width": 230,
 					"height": 20,
-					"textAlign": "left"
+					"textAlign": "left",
+					"sizingY": "fixed"
 				}
 			}
 		},
@@ -1512,7 +1541,7 @@
 					"left": 50,
 					"width": 1100,
 					"height": 200,
-					"sizingY": "grow",
+					"sizingY": "fixed",
 					"dataSource": "_Descriptions[7]",
 					"focusable": false,
 					"fill": "transparent",
@@ -1538,7 +1567,8 @@
 					"strokeDashArray": [
 						1,
 						3
-					]
+					],
+					"sizingY": "fixed"
 				},
 				"Button15": {
 					"type": "button",
@@ -1551,7 +1581,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button15.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"metrics6": {
 					"type": "input",
@@ -1561,7 +1592,8 @@
 					"height": 250,
 					"enterable": false,
 					"focusable": false,
-					"dataSource": "Form:C1466.info"
+					"dataSource": "Form:C1466.info",
+					"sizingY": "grow"
 				},
 				"Text11": {
 					"type": "text",
@@ -1571,7 +1603,8 @@
 					"width": 210,
 					"height": 20,
 					"fontWeight": "bold",
-					"fontSize": 14
+					"fontSize": 14,
+					"sizingY": "fixed"
 				},
 				"Button17": {
 					"type": "button",
@@ -1584,7 +1617,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button17.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"Input16": {
 					"type": "input",
@@ -1597,7 +1631,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[18]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"Input18": {
 					"type": "input",
@@ -1610,7 +1645,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[10]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"Text12": {
 					"type": "text",
@@ -1619,7 +1655,8 @@
 					"left": 40,
 					"width": 180,
 					"height": 22,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"sizingY": "fixed"
 				},
 				"Text14": {
 					"type": "text",
@@ -1628,7 +1665,8 @@
 					"left": 440,
 					"width": 100,
 					"height": 20,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"sizingY": "fixed"
 				},
 				"Input19": {
 					"type": "input",
@@ -1637,7 +1675,8 @@
 					"width": 100,
 					"height": 20,
 					"dataSource": "Form:C1466.patientInfo.firstname",
-					"dataSourceTypeHint": "date"
+					"dataSourceTypeHint": "date",
+					"sizingY": "fixed"
 				},
 				"Text17": {
 					"type": "text",
@@ -1646,7 +1685,8 @@
 					"left": 10,
 					"width": 100,
 					"height": 20,
-					"textAlign": "right"
+					"textAlign": "right",
+					"sizingY": "fixed"
 				},
 				"List Box2": {
 					"type": "listbox",
@@ -1668,6 +1708,7 @@
 					"focusable": false,
 					"scrollbarHorizontal": "hidden",
 					"currentItemSource": "Form:C1466.selectedPatient",
+					"sizingY": "fixed",
 					"columns": [
 						{
 							"header": {
@@ -1715,7 +1756,8 @@
 					"width": 100,
 					"height": 20,
 					"dataSource": "Form:C1466.patientInfo.lastname",
-					"dataSourceTypeHint": "date"
+					"dataSourceTypeHint": "date",
+					"sizingY": "fixed"
 				},
 				"Text18": {
 					"type": "text",
@@ -1724,7 +1766,8 @@
 					"left": 210,
 					"width": 100,
 					"height": 20,
-					"textAlign": "right"
+					"textAlign": "right",
+					"sizingY": "fixed"
 				},
 				"Input21": {
 					"type": "input",
@@ -1737,7 +1780,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[9]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"Button16": {
 					"type": "button",
@@ -1750,7 +1794,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button16.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"information15": {
 					"type": "input",
@@ -1781,7 +1826,8 @@
 					"width": 230,
 					"height": 20,
 					"fontWeight": "bold",
-					"stroke": "#6495ed"
+					"stroke": "#6495ed",
+					"sizingY": "fixed"
 				},
 				"testPrivilege7": {
 					"type": "input",
@@ -1797,7 +1843,8 @@
 					"fill": "#b1c4dd",
 					"borderStyle": "none",
 					"fontWeight": "bold",
-					"textAlign": "center"
+					"textAlign": "center",
+					"sizingY": "fixed"
 				},
 				"Text49": {
 					"type": "text",
@@ -1806,7 +1853,8 @@
 					"left": 500,
 					"width": 90,
 					"height": 20,
-					"textAlign": "right"
+					"textAlign": "right",
+					"sizingY": "fixed"
 				},
 				"Text50": {
 					"type": "text",
@@ -1815,7 +1863,8 @@
 					"left": 290,
 					"width": 100,
 					"height": 20,
-					"textAlign": "right"
+					"textAlign": "right",
+					"sizingY": "fixed"
 				},
 				"testPrivilege8": {
 					"type": "input",
@@ -1831,7 +1880,8 @@
 					"fill": "#b1c4dd",
 					"borderStyle": "none",
 					"fontWeight": "bold",
-					"textAlign": "center"
+					"textAlign": "center",
+					"sizingY": "fixed"
 				},
 				"Button24": {
 					"type": "button",
@@ -1844,7 +1894,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button24.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"Input33": {
 					"type": "input",
@@ -1857,7 +1908,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[19]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"Text32": {
 					"type": "text",
@@ -1866,7 +1918,8 @@
 					"left": 50,
 					"width": 230,
 					"height": 20,
-					"textAlign": "left"
+					"textAlign": "left",
+					"sizingY": "fixed"
 				}
 			}
 		},
@@ -1878,7 +1931,7 @@
 					"left": 50,
 					"width": 1100,
 					"height": 260,
-					"sizingY": "grow",
+					"sizingY": "fixed",
 					"dataSource": "_Descriptions[8]",
 					"focusable": false,
 					"fill": "transparent",
@@ -1900,7 +1953,8 @@
 					"width": 210,
 					"height": 20,
 					"fontWeight": "bold",
-					"fontSize": 14
+					"fontSize": 14,
+					"sizingY": "fixed"
 				},
 				"Text40": {
 					"type": "text",
@@ -1909,7 +1963,8 @@
 					"left": 50,
 					"width": 500,
 					"height": 20,
-					"textAlign": "left"
+					"textAlign": "left",
+					"sizingY": "fixed"
 				},
 				"metrics16": {
 					"type": "input",
@@ -1919,7 +1974,8 @@
 					"height": 80,
 					"enterable": false,
 					"focusable": false,
-					"dataSource": "Form:C1466.info"
+					"dataSource": "Form:C1466.info",
+					"sizingY": "fixed"
 				},
 				"Input24": {
 					"type": "input",
@@ -1933,7 +1989,8 @@
 					"borderStyle": "system",
 					"dataSource": "_Directions[16]",
 					"styledText": true,
-					"scrollbarVertical": "visible"
+					"scrollbarVertical": "visible",
+					"sizingY": "grow"
 				},
 				"List Box4": {
 					"type": "listbox",
@@ -1954,6 +2011,7 @@
 					"headerHeight": "21px",
 					"focusable": false,
 					"scrollbarHorizontal": "hidden",
+					"sizingY": "fixed",
 					"columns": [
 						{
 							"header": {
@@ -2008,7 +2066,8 @@
 					"fill": "#b1c4dd",
 					"borderStyle": "none",
 					"fontWeight": "bold",
-					"textAlign": "center"
+					"textAlign": "center",
+					"sizingY": "fixed"
 				},
 				"Button22": {
 					"type": "button",
@@ -2021,7 +2080,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button22.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"Input25": {
 					"type": "input",
@@ -2034,7 +2094,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[12]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"Text43": {
 					"type": "text",
@@ -2043,7 +2104,8 @@
 					"left": 380,
 					"width": 100,
 					"height": 20,
-					"textAlign": "right"
+					"textAlign": "right",
+					"sizingY": "fixed"
 				},
 				"testPrivilege10": {
 					"type": "input",
@@ -2059,7 +2121,8 @@
 					"fill": "#b1c4dd",
 					"borderStyle": "none",
 					"fontWeight": "bold",
-					"textAlign": "center"
+					"textAlign": "center",
+					"sizingY": "fixed"
 				},
 				"Button23": {
 					"type": "button",
@@ -2072,7 +2135,8 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button23.4dm",
-					"focusable": false
+					"focusable": false,
+					"sizingY": "fixed"
 				},
 				"Input26": {
 					"type": "input",
@@ -2085,7 +2149,8 @@
 					"fill": "transparent",
 					"borderStyle": "system",
 					"dataSource": "_Directions[21]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"Text41": {
 					"type": "text",
@@ -2094,7 +2159,8 @@
 					"left": 380,
 					"width": 180,
 					"height": 22,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"sizingY": "fixed"
 				},
 				"information16": {
 					"type": "input",
@@ -2125,7 +2191,8 @@
 					"width": 230,
 					"height": 20,
 					"fontWeight": "bold",
-					"stroke": "#6495ed"
+					"stroke": "#6495ed",
+					"sizingY": "fixed"
 				},
 				"Text44": {
 					"type": "text",
@@ -2134,7 +2201,8 @@
 					"left": 50,
 					"width": 100,
 					"height": 20,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"sizingY": "fixed"
 				},
 				"Input29": {
 					"type": "input",
@@ -2147,7 +2215,8 @@
 					"fill": "transparent",
 					"borderStyle": "none",
 					"dataSource": "_Directions[22]",
-					"styledText": true
+					"styledText": true,
+					"sizingY": "fixed"
 				},
 				"Text36": {
 					"type": "text",
@@ -2156,7 +2225,8 @@
 					"left": 50,
 					"width": 230,
 					"height": 20,
-					"textAlign": "left"
+					"textAlign": "left",
+					"sizingY": "fixed"
 				}
 			}
 		}
@@ -2172,6 +2242,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5787,
+	"geometryStamp": 5886,
 	"windowSizingY": "variable"
 }
