@@ -1,8 +1,8 @@
 {
 	"destination": "detailScreen",
-	"windowMinWidth": 1280,
+	"windowMinWidth": 1200,
 	"windowMaxWidth": 32000,
-	"windowMinHeight": 1024,
+	"windowMinHeight": 1000,
 	"windowMaxHeight": 32000,
 	"width": 1200,
 	"height": 1000,
@@ -2242,6 +2242,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5886,
+	"geometryStamp": 5888,
 	"windowSizingY": "variable"
 }
