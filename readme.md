@@ -1,3 +1,3 @@
-# HDI_Template_v19
+# HDI_Permissions
 
-Title (4D v19 Rx)
+Get started with setting up permissions to access data (4D v19 R8)
